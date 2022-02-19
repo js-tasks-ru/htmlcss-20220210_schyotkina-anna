@@ -2,10 +2,19 @@
 <!-- Страница с кнопкой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../components/page/page.css">
         <link rel="stylesheet" href="./button.css">
     </head>
     <body>
-
+        <p>Default</p>
+        <input type="button" value="Primary" class="button button_primary">
+        <input type="button" value="Secondary" class="button button_secondary">
+        <input type="button" value="Alternate" class="button button_alternate">
+        <p>Disabled</p>
+        <input type="button" value="Primary" class="button button_primary" disabled>
+        <input type="button" value="Secondary" class="button button_secondary" disabled>
+        <input type="button" value="Alternate" class="button button_alternate" disabled>
     </body>
 </html>
