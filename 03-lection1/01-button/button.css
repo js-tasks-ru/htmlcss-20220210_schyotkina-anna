@@ -9,6 +9,8 @@
     border-color: transparent;
     cursor: pointer;
     transition: background 200ms ease-in-out;
+    line-height: 19px;
+    font-weight: 500;
 }
 
 .button:disabled {
