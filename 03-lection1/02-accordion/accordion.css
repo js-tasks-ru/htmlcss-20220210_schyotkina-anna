@@ -5,7 +5,7 @@
 
 .accordion__accordion-item {
     margin-bottom: 8px;
-    border: 1px solid var(--border-item);
+    border: 1px solid var(--border);
     box-sizing: border-box;
     border-radius: 8px;
     font-family: Inter;
