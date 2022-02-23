@@ -43,9 +43,11 @@
 
     --primary-text-color: var(--white);
     --secondary-text-color: var(--white);
-    --alternate-text-color: var(--black);            
+    --alternate-text-color: var(--black); 
+    
+    --border: var(--grey-3);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }

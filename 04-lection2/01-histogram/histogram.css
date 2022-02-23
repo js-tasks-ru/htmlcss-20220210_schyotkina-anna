@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+}
+
+.historgam {
+    background-color: red;  
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    border-radius: 8px;  
+    height: 185px;
+    padding: 19px 24px 24px 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.historgam__header {
+    background-color: blue;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.historgam__content {
+    background-color: green;
+    flex-basis: 50px;
+}
