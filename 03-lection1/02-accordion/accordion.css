@@ -5,33 +5,30 @@
 
 .accordion__accordion-item {
     margin-bottom: 8px;
-}
-
-.accordion__accordion-item:last-child {
-    margin-bottom: 0px;
-}
-
-.accordion-item {
     border: 1px solid #ACB5BD;
     box-sizing: border-box;
     border-radius: 8px;
     font-family: Inter;
     line-height: 24px;
     font-weight: normal;    
-    padding: 24px 32px;
+    padding: 24px 32px;    
 }
 
-.accordion-item__summary {    
+.accordion__accordion-item:last-child {
+    margin-bottom: 0px;
+}
+
+.accordion__summary {    
     color: #212429;
     font-family: inherit;
     display: block;
 }
 
-.accordion-item__summary::-webkit-details-marker {
+.accordion__summary::-webkit-details-marker {
     display: none;
 }
 
-.accordion-item__text-details {
+.accordion__text-details {
     color: #495057;
     font-family: inherit;
     margin-bottom: 0px;
