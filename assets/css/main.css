@@ -5,7 +5,7 @@
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
-    --blue: #374FC7;
+    --blue: #4263EB;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -15,8 +15,35 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
-    --secondary: var(--purple);
+    --darken-percentage: 12%;
+
+    --primary-h: 228;
+    --primary-s: 80%;
+    --primary-l: 59%;
+
+    --secondary-h: 255;
+    --secondary-s: 77%;
+    --secondary-l: 59%;        
+
+    --primary-bg: var(--blue);
+    --secondary-bg: var(--purple);
+    --alternate-bg: var(--white);    
+
+    --primary-bg-hover: hsl(var(--primary-h), calc(var(--primary-s) - var(--darken-percentage)), calc(var(--primary-l) - var(--darken-percentage)));
+    --secondary-bg-hover: hsl(var(--secondary-h), calc(var(--secondary-s) - var(--darken-percentage)), calc(var(--secondary-l) - var(--darken-percentage)));
+    --alternate-bg-hover: var(--white);  
+
+    --primary-border: var(--blue);
+    --secondary-border: var(--purple);
+    --alternate-border: var(--grey-3);        
+
+    --primary-border-hover: hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) - var(--darken-percentage)));
+    --secondary-border-hover: hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) - var(--darken-percentage)));
+    --alternate-border-hover: var(--black);  
+
+    --primary-text-color: var(--white);
+    --secondary-text-color: var(--white);
+    --alternate-text-color: var(--black);            
 }
 
 * {
