@@ -1,26 +1,51 @@
-body {
-    padding: 10px;
-}
-
 .historgam {
-    background-color: red;  
     border: 1px solid var(--border);
     box-sizing: border-box;
     border-radius: 8px;  
     height: 185px;
-    padding: 19px 24px 24px 26px;
+    padding: 16px 24px 24px 26px;
     display: flex;
     flex-direction: column;
+    font-family: Inter;
 }
 
 .historgam__header {
-    background-color: blue;
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
 }
 
 .historgam__content {
-    background-color: green;
     flex-basis: 50px;
+}
+
+.historgam__text {
+    opacity: 0.8;
+    color: var(--text-main);
+    line-height: 24px;
+    margin: 0px;
+}
+
+.historgam__text_value {
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 1;
+    margin-top: 6px;
+}
+
+.historgam__link {
+    margin-top: 3px;
+    line-height: 24px;
+    color: var(--primary-bg);
+}
+
+.historgam__content {
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+}
+
+.historgam__column {
+    background-color: var(--primary-bg);    
+    flex-grow: 1;    
 }
