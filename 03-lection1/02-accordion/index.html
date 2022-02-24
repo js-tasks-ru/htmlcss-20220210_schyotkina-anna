@@ -2,17 +2,36 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/normalize.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class='accordion'>
+            <details class='accordion__accordion-item'>
+                <summary class='accordion__summary'>
+                    Заголовок блока на который нужно нажать
+                </summary>
+                <p class='accordion__text-details'>
+                    Содержимое блока 1. Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                </p>
+            </details>
+            <details class='accordion__accordion-item'>
+                <summary class='accordion__summary'>
+                    Какой-либо вопрос
+                </summary>
+                <p class='accordion__text-details'>
+                    Какой-то ответ.Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в компонент.
+                </p>
+            </details>
+            <details class='accordion__accordion-item'>
+                <summary class='accordion__summary'>
+                    Здесь может быть очередной вопрос
+                </summary>
+                <p class='accordion__text-details'>
+                    Очередной ответ. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.
+                </p>
+            </details>                        
+        </div>
     </body>
 </html>
