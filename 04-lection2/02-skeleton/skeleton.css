@@ -1,0 +1,20 @@
+body {
+    margin: 20px;
+}
+
+.skeleton {
+    padding: 24px 40px 24px 24px;
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.skeleton__block {
+
+}
+
+.sekeleton__line {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    height: 20px;
+    margin-bottom: 8px;
+}
