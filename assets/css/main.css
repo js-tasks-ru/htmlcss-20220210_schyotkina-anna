@@ -55,11 +55,12 @@
     --text-details: var(--grey-4);
     --text-main: var(--black);    
 
-    --block-bg: var(--grey-2);
+    --block-bg: var(--grey-2);    
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100%;
 }
 
 html {
