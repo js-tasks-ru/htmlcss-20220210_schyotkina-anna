@@ -1,7 +1,3 @@
-body {
-    margin: 20px;
-}
-
 .skeleton__top {
     display: flex;
     flex-direction: row;
@@ -18,27 +14,29 @@ body {
 .skeleton__block {
     display: flex;
     flex-direction: column;
-    height: 48px;
+    gap: 8px;    
     justify-content: space-between;    
     padding: 8px 0 8px 0;
+    flex-grow: 1;
 }
 
 .skeleton__line {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    flex-basis: 20px;
+    height: 20px;
 }
 
 .skeleton__line_short {
-    width: 257px;
+    width: 60%;
 }
 
 .skeleton__line_shortest {
-    width: 172px;
+    width: 40%;
 }
 
 .skeleton__round {
     border-radius: 50%;
     width: 64px;
+    height: 64px;
     background: var(--block-bg);
     margin-right: 16px;
 }
