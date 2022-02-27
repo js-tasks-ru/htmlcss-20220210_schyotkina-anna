@@ -7,3 +7,10 @@
 .page__main {
     flex-grow: 1;
 }
+
+.page_secondary {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 36px;
+    background-color: var(--main-bg-color);
+}

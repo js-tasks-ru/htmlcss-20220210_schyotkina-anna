@@ -5,6 +5,7 @@
 @import '../../components/page/page.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
+@import '../../components/card-view/card-view.css';
 
 :root {
     --white: #ffffff;
@@ -17,9 +18,12 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
+
+    --main-bg-color: var(--grey-5);
 
     --darken-percentage: 12%;
 
@@ -57,6 +61,7 @@
     --text-main: var(--black); 
     --text-details: var(--grey-4);
     --text-secondary: var(--grey-2);       
+    --text-footer: var(--grey-3); 
 }
 
 body {

@@ -1,0 +1,52 @@
+.card-view__inner {
+    --text-select-color: #D84910;
+    --text-title-color: #000000;
+    font-family: Inter;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    height: 100%;
+}
+
+.card-view__menu {
+    width: 229px;
+}
+
+.card-view__title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+    margin: 0 0 16px 0;
+    color: var(--text-title-color);
+}
+
+.card-view__link {
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--text-main);
+    margin-bottom: 4px;
+    display: block;
+    text-decoration: none;
+}
+
+.card-view__link_select {
+    color: var(--text-select-color);
+}
+
+.card-view__link_home {
+    margin: 26px 0 0 0;
+}
+
+.card-view__view {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    padding: 32px 48px;
+}
+
+.card-view__caption {
+    margin: 0 0 24px 0;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: normal;
+}
