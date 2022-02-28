@@ -1,16 +1,22 @@
 .preview {
     --preview-bg-color: #F9FAFC;
     background-color: var(--preview-bg-color);
-    padding: 68px 0 204px 0;
+    padding: 24px 0 54px 0;
 }
 
 .preview__inner {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+    gap: 16px;
 }
 
-.preview__inner-card {
-    flex-basis: calc(33.3333% - 30px);
+@media screen and (min-width: 768px) {
+    .preview {
+        padding: 68px 0 204px 0;
+    }
+
+    .preview__inner {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));        
+        gap: 30px;
+    }
 }

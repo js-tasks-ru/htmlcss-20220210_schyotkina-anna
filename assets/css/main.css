@@ -52,6 +52,7 @@
     --alternate-text-color: var(--black); 
     
     --border: var(--grey-3);
+    --header-border: var(--grey-2);
     --block-bg: var(--grey-2);    
 
     --text-main: var(--black); 
