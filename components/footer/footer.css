@@ -9,6 +9,7 @@
         text-align: center;
         padding: 39px 0 136px 0;
         display: block;
+        border-top: 1px solid var(--main-border);          
     }
     
     .footer__title {
