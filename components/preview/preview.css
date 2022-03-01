@@ -1,22 +1,30 @@
 .preview {
     --preview-bg-color: #F9FAFC;
     background-color: var(--preview-bg-color);
-    padding: 24px 0 54px 0;
 }
 
 .preview__inner {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
-    gap: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .preview {
+        padding: 1.5rem 0 3.375rem 0;
+    }
+    
+    .preview__inner {
+        grid-template-columns: repeat(auto-fill, minmax(10.25rem, 1fr));
+        gap: 1rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .preview {
-        padding: 68px 0 204px 0;
+        padding: 4.25rem 0 12.75rem 0;
     }
 
     .preview__inner {
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));        
-        gap: 30px;
+        grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr));        
+        gap: 1.875rem;
     }
 }

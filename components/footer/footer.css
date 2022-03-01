@@ -7,20 +7,21 @@
         font-family: Inter;
         color: var(--text-main);
         text-align: center;
-        padding: 39px 0 136px 0;
+        padding: 2.4375em 0 8.5em 0;
         display: block;
         border-top: 1px solid var(--main-border);          
     }
     
-    .footer__title {
+    .footer__title {        
+        font-size: 2.375rem;
         font-weight: 500;
-        font-size: 38px;
-        line-height: 48px;
-        margin: 32px 0 32px 0;
+        line-height: 1.263;
+        margin: 0.842em 0 0.842em 0;
     }
     
     .footer__text {
-        line-height: 24px;   
-        margin: 0 235px 0 235px;
+        font-size: 1rem;
+        line-height: 1.5;   
+        margin: 0 14.6875em 0 14.6875em;
     }
 }

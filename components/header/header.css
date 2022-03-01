@@ -1,26 +1,36 @@
 .header {
     font-family: Inter;
-    padding: 96px 0px 69px;  
     border-bottom: 1px solid var(--main-border);  
+    padding: 6rem 0 0 0;  
 }
 
 .header__title {
+    font-size: inherit;
     margin: 0px;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 38px;
-    color: var(--text-details);
 }
 
-@media screen and (min-width: 768px) {
-    .header {
-        padding: 96px 0px 77px; 
+@media screen and (max-width: 767px) {
+    .header {        
+        font-size: 1.75rem;
+        padding-bottom: 2.464em;  
     }
     
     .header__title {
-        font-weight: 500;
-        font-size: 50px;
-        line-height: 64px;
+        font-weight: normal;
+        line-height: 1.357;
+        color: var(--text-details);
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .header {        
+        font-size: 3.125rem;
+        padding-bottom: 1.54em; 
+    }
+    
+    .header__title {
+        font-weight: 500;        
+        line-height: 1.28;
         color: var(--text-main);
     }
 }

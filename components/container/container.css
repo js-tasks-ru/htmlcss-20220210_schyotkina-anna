@@ -1,10 +1,15 @@
 .container {
-    max-width: 344px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: calc(10.25rem * 2 + 1rem);
+    }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 1110px;
+        max-width: calc(21.875rem * 3 + 1.875rem * 2);
     }
 }
