@@ -16,7 +16,7 @@
 @media screen and (max-width: 767px) {
     .header {        
         font-size: 1.75rem;
-        padding-bottom: 2.464em;  
+        padding-bottom: 4.3125rem;  
     }
     
     .header_secondary {
@@ -35,7 +35,7 @@
 @media screen and (min-width: 768px) {
     .header {        
         font-size: 3.125rem;
-        padding-bottom: 1.54em; 
+        padding-bottom: 4.8125rem; 
     }
     
     .header_secondary {
