@@ -9,17 +9,27 @@
     margin: 0px;
 }
 
+.header_secondary {
+    border-bottom: none;
+}
+
 @media screen and (max-width: 767px) {
     .header {        
         font-size: 1.75rem;
         padding-bottom: 2.464em;  
     }
     
+    .header_secondary {
+        padding: 0;
+        height: 64px;
+        background-color: var(--main-bg-color);
+    }  
+
     .header__title {
         font-weight: normal;
         line-height: 1.357;
         color: var(--text-details);
-    }    
+    }      
 }
 
 @media screen and (min-width: 768px) {
@@ -28,15 +38,15 @@
         padding-bottom: 1.54em; 
     }
     
+    .header_secondary {
+        padding: 0;
+        height: 82px;
+        background-color: var(--alternate-bg);
+    }     
+
     .header__title {
         font-weight: 500;        
         line-height: 1.28;
         color: var(--text-main);
-    }
-}
-
-.header_secondary {
-    height: 82px;
-    padding: 0;
-    background-color: var(--alternate-bg);
+    }   
 }
