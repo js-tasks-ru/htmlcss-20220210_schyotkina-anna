@@ -1,11 +1,11 @@
 .skeleton__top {
     display: flex;
     flex-direction: row;
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
 }
 
 .skeleton {
-    padding: 24px 40px 24px 24px;
+    padding: 1.5rem 2.5em 1.5rem 1.5em;
     border: 1px solid var(--border);
     box-sizing: border-box;
     border-radius: 8px;
@@ -14,15 +14,15 @@
 .skeleton__block {
     display: flex;
     flex-direction: column;
-    gap: 8px;    
+    gap: 0.5rem;    
     justify-content: space-between;    
-    padding: 8px 0 8px 0;
+    padding: 0.5rem 0 0.5rem 0;
     flex-grow: 1;
 }
 
 .skeleton__line {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    height: 20px;
+    height: 1.25rem;
 }
 
 .skeleton__line_short {
@@ -35,8 +35,8 @@
 
 .skeleton__round {
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     background: var(--block-bg);
-    margin-right: 16px;
+    margin-right: 1rem;
 }
