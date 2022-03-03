@@ -16,3 +16,16 @@
     line-height: 24px;   
     margin: 0 235px 0 235px;
 }
+
+.footer_secondary {
+    padding: 56px 0;
+}
+
+.footer__text_secondary {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;    
+    color: var(--text-footer);
+}

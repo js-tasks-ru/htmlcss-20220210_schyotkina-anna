@@ -10,3 +10,9 @@
     line-height: 64px;
     color: var(--text-main);
 }
+
+.header_secondary {
+    height: 82px;
+    padding: 0;
+    background-color: var(--alternate-bg);
+}

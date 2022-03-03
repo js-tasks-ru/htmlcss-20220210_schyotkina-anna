@@ -41,3 +41,7 @@
 .tooltip__icon:hover + .tooltip__bubble {
     display: block;
 }
+
+.tooltip__text {
+    margin: 0;
+}

@@ -1,6 +1,5 @@
-.preview {
-    --preview-bg-color: #F9FAFC;
-    background-color: var(--preview-bg-color);
+.preview {    
+    background-color: var(--main-bg-color);
     padding: 68px 0 204px 0;
 }
 
