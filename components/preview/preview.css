@@ -1,15 +1,30 @@
-.preview {    
-    background-color: var(--main-bg-color);
-    padding: 68px 0 204px 0;
+.preview {
+    --preview-bg-color: #F9FAFC;
+    background-color: var(--preview-bg-color);
 }
 
 .preview__inner {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    flex-wrap: wrap;
+    display: grid;
 }
 
-.preview__inner-card {
-    flex-basis: calc(33.3333% - 30px);
+@media screen and (max-width: 767px) {
+    .preview {
+        padding: 1.5rem 0 3.375rem 0;
+    }
+    
+    .preview__inner {
+        grid-template-columns: repeat(auto-fill, minmax(10.25rem, 1fr));
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .preview {
+        padding: 4.25rem 0 12.75rem 0;
+    }
+
+    .preview__inner {
+        grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr));        
+        gap: 1.875rem;
+    }
 }
