@@ -1,21 +1,13 @@
 .preview {
     --preview-bg-color: #F9FAFC;
     background-color: var(--preview-bg-color);
+    padding: 1.5rem 0 3.375rem 0;
 }
 
 .preview__inner {
     display: grid;
-}
-
-@media screen and (max-width: 767px) {
-    .preview {
-        padding: 1.5rem 0 3.375rem 0;
-    }
-    
-    .preview__inner {
-        grid-template-columns: repeat(auto-fill, minmax(10.25rem, 1fr));
-        gap: 1rem;
-    }
+    grid-template-columns: repeat(auto-fill, minmax(10.25rem, 1fr));
+    gap: 1rem;
 }
 
 @media screen and (min-width: 768px) {

@@ -11,13 +11,8 @@
 .page_secondary {
     display: grid;
     grid-template-rows: auto 1fr auto;
-}
-
-@media screen and (max-width: 767px) {
-    .page_secondary {
-        grid-template-rows: auto 1fr;
-        background-color: var(--alternate-bg);
-    }     
+    grid-template-rows: auto 1fr;
+    background-color: var(--alternate-bg);    
 }
 
 @media screen and (min-width: 768px) {
