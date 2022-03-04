@@ -1,8 +1,5 @@
-
-@media screen and (max-width: 767px) {
-    .menu {
-        display: none;
-    }
+.menu {
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -10,6 +7,7 @@
         --text-select-color: #D84910;
         --text-title-color: #000000;    
         width: 14.3125rem;
+        display: block;
     }
 
     .menu__title {

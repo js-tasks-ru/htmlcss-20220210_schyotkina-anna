@@ -4,36 +4,25 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;    
+    border-radius: 8px;
+    height: 210px;
+    margin-bottom: 0.4375em;
 }
 
 .card__content {
     flex-grow: 1;
+    border-bottom: 1px solid var(--main-border);  
 }
 
 .card__title {
     text-align: center;
     color: var(--text-main);
     margin: 0;
-}
-
-@media screen and (max-width: 767px) {
-    .card {
-        border-radius: 8px;
-        height: 210px;
-        margin-bottom: 0.4375em;
-    }
-    
-    .card__content {
-        border-bottom: 1px solid var(--main-border);  
-    }
-    
-    .card__title {
-        font-family: Inter;    
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.5;
-        padding: 0.625em 0;
-    }
+    font-family: Inter;    
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.625em 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,6 +30,11 @@
         border-radius: 12px;
         height: 367px;
         padding: 0 1.5rem 0 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .card__content {
+        border-bottom: none;  
     }
 
     .card__title {

@@ -1,12 +1,7 @@
 .container {
     margin: 0 auto;
     height: 100%;
-}
-
-@media screen and (max-width: 767px) {
-    .container {
-        max-width: calc(10.25rem * 2 + 1rem);
-    }
+    max-width: calc(10.25rem * 2 + 1rem);
 }
 
 @media screen and (min-width: 768px) {
