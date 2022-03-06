@@ -18,17 +18,33 @@
     margin-bottom: 0px;
 }
 
+.accordion__accordion-item[open] .accordion__icon {
+    transform: rotate(180deg);
+}
+
 .accordion__summary {    
     color: var(--text-main);
-    display: block;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .accordion__summary::-webkit-details-marker {
     display: none;
 }
 
+.accordion__text-summary {
+    margin: 0;
+}
+
 .accordion__text-details {
     color: var(--text-details);
     margin: 1rem 0 0 0;
     padding: 0 1.0625em 0.5rem 0;    
+}
+
+.accordion__icon {
+    width: 1.625rem;
+    height: 1.625rem;
+    cursor: pointer;    
 }

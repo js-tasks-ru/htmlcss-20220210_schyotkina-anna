@@ -39,11 +39,12 @@
     margin: 0;
 }
 
-.modal__close {
-    position: absolute;
-    right: 0.75rem;
-    top: 0.75rem;
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
+.modal__close-image {  
+    position: absolute;  
+    right: 4px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;  
+    transform: scale(0.66666) translate(-6px, -6px);
 }
