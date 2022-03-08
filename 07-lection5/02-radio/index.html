@@ -2,10 +2,44 @@
 <!-- Страница радио -->
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../assets/css/normalize.css">         
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
+        <p>Default</p>
+        <label class="radio">
+            <input type="radio" name="radioGroup1" class="radio__input">
+            <span class="radio__state">
+                <span class="radio__control">
+                    <span class="radio__icon"></span>
+                </span>
+                <span class="radio__title">Default</span>
+            </span>
+        </label>  
 
+        <p>Selected</p>
+        <label class="radio">
+            <input type="radio" name="radioGroup1" class="radio__input">
+            <span class="radio__state">
+                <span class="radio__control">
+                    <span class="radio__icon"></span> 
+                </span>
+                <span class="radio__title">Selected</span>
+            </span>
+        </label>          
+
+        <p>Disabled</p>
+        <label class="radio">
+            <input type="radio" name="radioGroup1" class="radio__input" disabled>
+            <span class="radio__state">
+                <span class="radio__control">
+                    <span class="radio__icon"></span> 
+                </span>
+                <span class="radio__title">Disabled</span>
+            </span>
+        </label>          
     </body>
 </html>
