@@ -2,10 +2,54 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../assets/css/normalize.css">                
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <div>
+            <label class="input">            
+                <span class="input__title">Label</span>
+                <div class="input__content">
+                    <input type="text" class="input__input" placeholder="Placeholder">
+                    <svg class="input__icon input__icon_success">
+                        <use href="../../assets/images/icons-sprite.svg#input-success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use href="../../assets/images/icons-sprite.svg#input-invalid"></use>
+                    </svg>
+                </div>            
+            </label>
+        </div>
+        <div>
+            <label class="input input_success">            
+                <span class="input__title">Success</span>
+                <div class="input__content">
+                    <input type="text" class="input__input" placeholder="Placeholder">
+                    <svg class="input__icon input__icon_success">
+                        <use href="../../assets/images/icons-sprite.svg#input-success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use href="../../assets/images/icons-sprite.svg#input-invalid"></use>
+                    </svg>
+                </div>            
+            </label>
+        </div>
+        <div>
+            <label class="input input_invalid">
+                <span class="input__title">Error</span>
+                <div class="input__content">
+                    <input type="text" class="input__input" placeholder="Placeholder">
+                    <svg class="input__icon input__icon_success">
+                        <use href="../../assets/images/icons-sprite.svg#input-success"></use>
+                    </svg>
+                    <svg class="input__icon input__icon_invalid">
+                        <use href="../../assets/images/icons-sprite.svg#input-invalid"></use>
+                    </svg>
+                </div>            
+            </label>
+        </div>                
     </body>
 </html>
