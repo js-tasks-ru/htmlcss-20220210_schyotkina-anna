@@ -21,7 +21,7 @@
     border: 1px solid var(--main-border);
     box-sizing: border-box;
     border-radius: 14px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
