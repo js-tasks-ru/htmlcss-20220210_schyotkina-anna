@@ -1,0 +1,22 @@
+.tabs {
+    position: relative;
+}
+
+.tabs__scroller {
+    display: inline-flex;
+}
+
+.tabs__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+
+.tabs__label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-main);
+}

@@ -11,12 +11,25 @@
         <div class="page">
             <header class="header">
                 <div class="container">
-                    <div class="header__content">
+                    <div class="header__inner">
                         <div class="logo">
                             <img class="logo__image" src="./assets/images/logo.svg">
                         </div>
                         <h1 class="header__title">Reusable component library</h1>
-                    </div>                                        
+                        <div class="tabs">
+                            <input type="radio" name="tabsGroup" id="#all-tab" class="tabs__input" checked>
+                            <input type="radio" name="tabsGroup" id="#elements-tab" class="tabs__input">
+                            <input type="radio" name="tabsGroup" id="#containers-tab" class="tabs__input">
+                            <input type="radio" name="tabsGroup" id="#templates-tab" class="tabs__input">
+                        
+                            <div class="tabs__scroller">
+                                <label class="tabs__label" for="#all-tab">All components</label>
+                                <label class="tabs__label" for="#elements-tab">Elements</label>
+                                <label class="tabs__label" for="#containers-tab">Containers</label>
+                                <label class="tabs__label" for="#templates-tab">Templates</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </header>        
             <main class="preview page__main">

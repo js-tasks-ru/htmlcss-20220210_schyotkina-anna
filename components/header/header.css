@@ -2,7 +2,12 @@
     font-family: Inter;
     font-size: 1.75rem;
     border-bottom: 1px solid var(--main-border);  
-    padding: 1.0625rem 0 4.3125rem 0;  
+    padding-top: 1.0625rem;
+}
+
+.header__inner {
+    display: flex;
+    flex-direction: column;
 }
 
 .header__title {
@@ -22,14 +27,14 @@
 @media screen and (min-width: 768px) {
     .header {        
         font-size: 3.125rem;
-        padding-bottom: 4.8125rem; 
+        padding-top: 1.5625rem; 
     }
 
     .header__title {
         font-weight: 500;        
         line-height: 1.28;
         color: var(--text-main);
-        margin-top: 2.9375rem;
+        margin-top: 2.5rem;
     }   
 
     .header_secondary {
