@@ -39,6 +39,14 @@
     color: var(--text-secondary);
 }
 
+.input__input:disabled::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.input__input:disabled::-moz-placeholder {
+    opacity: 0;
+}
+
 .input__input:focus {
     border: 1px solid var(--primary-border);
     box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
