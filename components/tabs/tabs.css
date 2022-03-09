@@ -19,13 +19,14 @@
     margin-right: 1.5rem;
     padding-bottom: 8px;
     display: inline-block;
-    border-bottom: 5px solid var(--alternate-bg);  
+    border-bottom: 5px solid var(--main-bg-color);  
     white-space: nowrap;
 }
 
 @media screen and (min-width: 768px) {
     .tabs__label {
         margin-right: 2.5rem;
+        border-bottom-color: var(--alternate-bg); 
     }
 }
 
