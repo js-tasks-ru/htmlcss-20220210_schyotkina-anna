@@ -4,6 +4,7 @@
     border-bottom: 1px solid var(--main-border);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .dark-mode__title {

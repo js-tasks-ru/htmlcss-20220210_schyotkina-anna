@@ -30,8 +30,8 @@
 }
 
 .header__burger-menu {
-    top: 66px;
-    height: calc(100vh - 66px);
+    top: calc(2.125rem + 32px);
+    height: calc(100vh - 2.125rem - 32px);
 }
 
 @media screen and (min-width: 768px) {
