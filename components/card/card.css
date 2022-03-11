@@ -14,22 +14,34 @@
     border-bottom: 1px solid var(--main-border);  
 }
 
-.card__title {
-    text-align: center;
+.card__title {    
     color: var(--text-main);
     margin: 0;
     font-family: Inter;    
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.5;
-    padding: 0.625em 0;
+    text-align: center;
+}
+
+.card__title_second {
+    font-size: 0.875rem;
+    line-height: 1.57;
+    color: var(--text-footer);
+}
+
+.card__title-container {
+    align-items: center;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
     .card {
         border-radius: 12px;
         height: 367px;
-        padding: 0 1.5rem 0 1.5rem;
+        padding: 2rem;
         margin-bottom: 0;
     }
 
@@ -42,6 +54,17 @@
         font-weight: 500;
         font-size: 1.3125rem;
         line-height: 1.19;
-        padding: 1.429em 0;
+        padding-bottom: 0.375rem;
+    }
+
+    .card__title_second {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.1875;
+        color: var(--text-main);
+    }
+
+    .card__title-container {
+        padding: 1.5625rem 0 0 0;
     }
 }
