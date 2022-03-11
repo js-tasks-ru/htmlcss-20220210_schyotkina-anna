@@ -9,6 +9,7 @@
 @import '../../components/component-view/component-view.css';
 @import '../../components/menu/menu.css';
 @import '../../components/logo/logo.css';
+@import '../../components/tabs/tabs.css';
 @import '../../components/dark-mode/dark-mode.css';
 
 :root {
@@ -67,6 +68,8 @@
     --text-details: var(--grey-4);
     --text-secondary: var(--grey-2);       
     --text-footer: var(--grey-3); 
+
+    --control-bg: var(--grey-3); 
 }
 
 body {
