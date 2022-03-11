@@ -11,6 +11,36 @@
         <div class="page page_secondary">
             <header class="header header_secondary">
                 <div class="container">
+                    <div class="burger header__burger">
+                        <input type="checkbox" class="burger__input" id="burger_button">
+                        <label for="burger_button" class="burger__state">
+                            <div class="burger__button burger__button_close">
+                                <svg class="burger__icon">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                </svg> 
+                            </div>
+                            <div class="burger__button burger__button_open">
+                                <svg class="burger__icon">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                </svg> 
+                            </div>    
+                        </label>
+                        <div class="burger__menu header__burger-menu">  
+                            <div class="dark-mode">
+                                <span class="dark-mode__title">Dark mode</span>
+                            </div>
+                            <div class="menu">
+                                <h4 class="menu__title">Components</h4>
+                                <a href="" class="menu__item">Modal</a>
+                                <a href="" class="menu__item menu__item_select">Tooltip</a>
+                                <a href="" class="menu__item">Avatar</a>
+                                <a href="" class="menu__item">Calendar</a>
+                                <a href="" class="menu__item">Histogram</a>
+                                <a href="" class="menu__item">Custom form elements</a>
+                                <a href="" class="menu__item menu__item_main">Main page</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="logo">
                         <img class="logo__image" src="../assets/images/logo.svg">
                     </div>
@@ -19,7 +49,7 @@
             <main class="component-view">
                 <div class="container">
                     <section class="component-view__inner">
-                        <aside class="menu">
+                        <aside class="menu menu_page">
                             <h4 class="menu__title">Components</h4>
                             <a href="" class="menu__item">Modal</a>
                             <a href="" class="menu__item">Tooltip</a>
