@@ -10,7 +10,6 @@
 
 .page_secondary {
     display: grid;
-    grid-template-rows: auto 1fr auto;
     grid-template-rows: auto 1fr;
     background-color: var(--alternate-bg);    
 }
