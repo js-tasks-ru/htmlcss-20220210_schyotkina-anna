@@ -1,44 +1,4 @@
 .burger {
-    display: inline-flex;
-}
-
-.burger__input {
-    position: absolute;
-    outline: none;
-    clip: rect(0, 0, 0, 0);
-}
-
-.burger__button {    
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    box-sizing: border-box;
-    font-size: 0;    
-    padding: 4px;        
-}
-
-.burger__button_close {
-    border-radius: 50%;
-    background-color: var(--block-bg);
-    padding: 4px;
-}
-
-.burger__icon {
-    width: 24px;
-    height: 24px;
-}
-
-.burger__input:checked ~ .burger__state .burger__button_close,
-.burger__input:not(:checked) ~ .burger__state .burger__button_open {
-    display: block;
-}
-
-.burger__input:checked ~ .burger__state .burger__button_open,
-.burger__input:not(:checked) ~ .burger__state .burger__button_close {
-    display: none;
-}
-
-.burger__menu {
     background-color: var(--main-bg-color);
     position: fixed;
     top: 0;
@@ -51,7 +11,7 @@
     box-sizing: border-box;
 }
 
-.burger__input:checked ~ .burger__menu {
+#burger_button:checked ~ .burger {
     transform: translateX(0);
 }
 

@@ -70,3 +70,37 @@
 .toggle__input:disabled ~ .toggle__state {
     cursor: default;
 }
+
+.toggle__input:checked ~ .toggle__state .toggle__button_close,
+.toggle__input:not(:checked) ~ .toggle__state .toggle__button_open {
+    display: block;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__button_open,
+.toggle__input:not(:checked) ~ .toggle__state .toggle__button_close {
+    display: none;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__icon_burger {
+    background-color: transparent;
+}
+
+.toggle__button_close {
+    border-radius: 50%;
+    background-color: var(--block-bg);
+    padding: 4px;
+}
+
+.toggle__icon_burger {
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.toggle__button {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 0;    
+    padding: 4px;        
+}
