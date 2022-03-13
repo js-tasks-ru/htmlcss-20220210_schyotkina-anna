@@ -38,13 +38,22 @@
                     <div class="container tabs__content-container">
                         <div class="tabs__content tabs__content_all">
                             <div class="preview__inner">
-                                <div class="card">
-                                    <div class="card__content"></div>
+                                <a href="" class="card">
+                                    <div class="card__content">
+                                        <div class="tooltip tooltip_preview">         
+                                            <svg class="tooltip__icon">
+                                                <use href='./assets/images/icons-sprite.svg#question'></use>
+                                            </svg>                                      
+                                            <div class="tooltip__bubble tooltip__bubble_preview">
+                                                <p class="tooltip__text">Helper Text</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="card__title-container">
                                         <span class="card__title">Tooltip</span>
                                         <span class="card__title card__title_second">Element</span>
                                     </div>
-                                </div>
+                                </a>
                                 <div class="card">
                                     <div class="card__content"></div>
                                     <div class="card__title-container">
@@ -52,20 +61,98 @@
                                         <span class="card__title card__title_second">Element</span>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card__content"></div>
+                                <a href="" class="card">
+                                    <div class="card__content">
+                                        <div class="calendar calendar_preview card__calendar">
+                                            <p class="calendar__title">October 2019</p>
+                                            <div class="calendar__wraper">
+                                                <div class="calendar__inner">
+                                                    <div class="calendar__text calendar__text_header">Mon</div>
+                                                    <div class="calendar__text calendar__text_header">Thu</div>
+                                                    <div class="calendar__text calendar__text_header">Wed</div>
+                                                    <div class="calendar__text calendar__text_header">Thu</div>
+                                                    <div class="calendar__text calendar__text_header">Fri</div>
+                                                    <div class="calendar__text calendar__text_header">Sat</div>
+                                                    <div class="calendar__text calendar__text_header">San</div>                                
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text">1</div>
+                                                    <div class="calendar__text">2</div>
+                                                    <div class="calendar__text">3</div>
+                                                    <div class="calendar__text">4</div>
+                                                    <div class="calendar__text">5</div>
+                                                    <div class="calendar__text">6</div>
+                                                    <div class="calendar__text">7</div>
+                                                    <div class="calendar__text">8</div>
+                                                    <div class="calendar__text">9</div>
+                                                    <div class="calendar__text">10</div>
+                                                    <div class="calendar__text">11</div>
+                                                    <div class="calendar__text">12</div>
+                                                    <div class="calendar__text">13</div>
+                                                    <div class="calendar__text">14</div>
+                                                    <div class="calendar__text">15</div>
+                                                    <div class="calendar__text">16</div>
+                                                    <div class="calendar__text">17</div>
+                                                    <div class="calendar__text calendar__text_corner">18</div>
+                                                    <div class="calendar__text calendar__text_select">19</div>
+                                                    <div class="calendar__text calendar__text_select">20</div>
+                                                    <div class="calendar__text calendar__text_select">21</div>
+                                                    <div class="calendar__text calendar__text_select">22</div>
+                                                    <div class="calendar__text calendar__text_corner">23</div>
+                                                    <div class="calendar__text">24</div>
+                                                    <div class="calendar__text">25</div>
+                                                    <div class="calendar__text">26</div>
+                                                    <div class="calendar__text">27</div>
+                                                    <div class="calendar__text">28</div>
+                                                    <div class="calendar__text">29</div>
+                                                    <div class="calendar__text">30</div>
+                                                    <div class="calendar__text">31</div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
                                     <div class="card__title-container">
                                         <span class="card__title">Calendar</span>
                                         <span class="card__title card__title_second">Container</span>
                                     </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card__content"></div>
+                                </a>
+                                <a href="" class="card">
+                                    <div class="card__content">
+                                        <div class="modal modal_preview card__modal">
+                                            <div class="modal__window">
+                                                <svg id="modal-close" class="modal__close-image">
+                                                    <use href='./assets/images/icons-sprite.svg#cross'></use>
+                                                </svg>                         
+                                                <h3 class="modal__title">
+                                                    Modal title
+                                                </h3>
+                                                <div class="modal__content">
+                                                    <div class="preview__modal">
+                                                        <label class="input">            
+                                                            <span class="input__title">Email</span>
+                                                            <div class="input__content">
+                                                                <input type="text" class="input__input" placeholder="Placeholder">
+                                                                <svg class="input__icon input__icon_success">
+                                                                    <use href="./assets/images/icons-sprite.svg#input-success"></use>
+                                                                </svg>
+                                                                <svg class="input__icon input__icon_invalid">
+                                                                    <use href="./assets/images/icons-sprite.svg#input-invalid"></use>
+                                                                </svg>
+                                                            </div>            
+                                                        </label>
+                                                        <button class="button button_primary button_preview">Submit</button>
+                                                    </div>                                                    
+                                                </div> 
+                                            </div>            
+                                        </div>
+                                    </div>
                                     <div class="card__title-container">
                                         <span class="card__title">Modal dialog</span>
                                         <span class="card__title card__title_second">Template</span>
                                     </div>
-                                </div>
+                                </a>
                                 <div class="card">
                                     <div class="card__content"></div>
                                     <div class="card__title-container">
@@ -84,13 +171,22 @@
                         </div>
                         <div class="tabs__content tabs__content_elements">
                             <div class="preview__inner">
-                                <div class="card">
-                                    <div class="card__content"></div>
+                                <a href="" class="card">
+                                    <div class="card__content">
+                                        <div class="tooltip tooltip_preview">         
+                                            <svg class="tooltip__icon">
+                                                <use href='./assets/images/icons-sprite.svg#question'></use>
+                                            </svg>                                      
+                                            <div class="tooltip__bubble tooltip__bubble_preview">
+                                                <p class="tooltip__text">Helper Text</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
                                     <div class="card__title-container">
                                         <span class="card__title">Tooltip</span>
                                         <span class="card__title card__title_second">Element</span>
                                     </div>
-                                </div>
+                                </a>
                                 <div class="card">
                                     <div class="card__content"></div>
                                     <div class="card__title-container">
@@ -109,24 +205,102 @@
                         </div>
                         <div class="tabs__content tabs__content_containers">
                             <div class="preview__inner">
-                                <div class="card">
-                                    <div class="card__content"></div>
+                                <a href="" class="card">
+                                    <div class="card__content">
+                                        <div class="calendar calendar_preview card__calendar">
+                                            <p class="calendar__title">October 2019</p>
+                                            <div class="calendar__wraper">
+                                                <div class="calendar__inner">
+                                                    <div class="calendar__text calendar__text_header">Mon</div>
+                                                    <div class="calendar__text calendar__text_header">Thu</div>
+                                                    <div class="calendar__text calendar__text_header">Wed</div>
+                                                    <div class="calendar__text calendar__text_header">Thu</div>
+                                                    <div class="calendar__text calendar__text_header">Fri</div>
+                                                    <div class="calendar__text calendar__text_header">Sat</div>
+                                                    <div class="calendar__text calendar__text_header">San</div>                                
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text"></div>
+                                                    <div class="calendar__text">1</div>
+                                                    <div class="calendar__text">2</div>
+                                                    <div class="calendar__text">3</div>
+                                                    <div class="calendar__text">4</div>
+                                                    <div class="calendar__text">5</div>
+                                                    <div class="calendar__text">6</div>
+                                                    <div class="calendar__text">7</div>
+                                                    <div class="calendar__text">8</div>
+                                                    <div class="calendar__text">9</div>
+                                                    <div class="calendar__text">10</div>
+                                                    <div class="calendar__text">11</div>
+                                                    <div class="calendar__text">12</div>
+                                                    <div class="calendar__text">13</div>
+                                                    <div class="calendar__text">14</div>
+                                                    <div class="calendar__text">15</div>
+                                                    <div class="calendar__text">16</div>
+                                                    <div class="calendar__text">17</div>
+                                                    <div class="calendar__text calendar__text_corner">18</div>
+                                                    <div class="calendar__text calendar__text_select">19</div>
+                                                    <div class="calendar__text calendar__text_select">20</div>
+                                                    <div class="calendar__text calendar__text_select">21</div>
+                                                    <div class="calendar__text calendar__text_select">22</div>
+                                                    <div class="calendar__text calendar__text_corner">23</div>
+                                                    <div class="calendar__text">24</div>
+                                                    <div class="calendar__text">25</div>
+                                                    <div class="calendar__text">26</div>
+                                                    <div class="calendar__text">27</div>
+                                                    <div class="calendar__text">28</div>
+                                                    <div class="calendar__text">29</div>
+                                                    <div class="calendar__text">30</div>
+                                                    <div class="calendar__text">31</div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
                                     <div class="card__title-container">
                                         <span class="card__title">Calendar</span>
                                         <span class="card__title card__title_second">Container</span>
                                     </div>
-                                </div>                       
+                                </a>
                             </div>                            
                         </div>
                         <div class="tabs__content tabs__content_templates">
                             <div class="preview__inner">
-                                <div class="card">
-                                    <div class="card__content"></div>
+                                <a href="" class="card">
+                                    <div class="card__content">
+                                        <div class="modal modal_preview card__modal">
+                                            <div class="modal__window">
+                                                <svg id="modal-close" class="modal__close-image">
+                                                    <use href='./assets/images/icons-sprite.svg#cross'></use>
+                                                </svg>                         
+                                                <h3 class="modal__title">
+                                                    Modal title
+                                                </h3>
+                                                <div class="modal__content">
+                                                    <div class="preview__modal">
+                                                        <label class="input">            
+                                                            <span class="input__title">Email</span>
+                                                            <div class="input__content">
+                                                                <input type="text" class="input__input" placeholder="Placeholder">
+                                                                <svg class="input__icon input__icon_success">
+                                                                    <use href="./assets/images/icons-sprite.svg#input-success"></use>
+                                                                </svg>
+                                                                <svg class="input__icon input__icon_invalid">
+                                                                    <use href="./assets/images/icons-sprite.svg#input-invalid"></use>
+                                                                </svg>
+                                                            </div>            
+                                                        </label>
+                                                        <button class="button button_primary button_preview">Submit</button>
+                                                    </div>                                                    
+                                                </div> 
+                                            </div>            
+                                        </div>
+                                    </div>
                                     <div class="card__title-container">
                                         <span class="card__title">Modal dialog</span>
                                         <span class="card__title card__title_second">Template</span>
                                     </div>
-                                </div>
+                                </a>
                                 <div class="card">
                                     <div class="card__content"></div>
                                     <div class="card__title-container">

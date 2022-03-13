@@ -6,12 +6,12 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--text-footer);
-    margin-bottom: 0.3125rem;
+    margin-bottom: 0.3125em;
     display: block;    
 }
 
@@ -22,9 +22,9 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     line-height: 1.3;
-    padding: 0.9375rem 1.5rem 0.9375rem 1.5rem;
+    padding: 0.9375em 1.5em 0.9375em 1.5em;
     color: var(--text-details);
     outline: none;
     width: 100%;
@@ -50,13 +50,13 @@
 
 .input_invalid .input__input,
 .input_success .input__input {
-    padding-right: 3.5rem;
+    padding-right: 3.5em;
 }
 
 .input__icon {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 1em;
+    right: 1em;
     display: none;
     width: 24px;
     height: 24px;

@@ -1,7 +1,7 @@
 /* Стилизация кнопки */
 .button {
     min-width: 11.875rem;
-    padding: 0.9375rem 0.9375em;
+    padding: 0.9375em 0.9375em;
     border-radius: 8px;
     border-width: 1px;
     border-style: solid;
@@ -50,4 +50,9 @@
     background-color: var(--alternate);
     border-color: var(--alternate-border);
     color: var(--alternate-text-color);
+}
+
+.button_preview {
+    min-width: 6rem;
+    width: 6rem;
 }
