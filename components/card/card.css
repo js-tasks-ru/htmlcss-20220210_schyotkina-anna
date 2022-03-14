@@ -50,6 +50,27 @@
     flex-grow: 1;
 }
 
+.card__custom-elements {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    width: 100%;
+    row-gap: 0.625rem;
+    padding: 0.625rem;
+    box-sizing: border-box;
+}
+
+.card__custom-elements_one-column {
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+}
+
+.card__custom-elements_short-gap {
+    row-gap: 0.15rem;
+}    
+
+.card__custom-elements_column-gap {
+    column-gap: 0.625rem;
+}    
+
 @media screen and (min-width: 768px) {
     .card {
         border-radius: 12px;
@@ -80,5 +101,14 @@
 
     .card__calendar {
         width: 10.4375rem;
+    }    
+
+    .card__custom-elements {
+        row-gap: 1rem;
+        padding: 0;
+    }
+
+    .card__custom-elements_short-gap {
+        row-gap: 0.3125rem;
     }    
 }

@@ -11,7 +11,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--text-footer);
-    margin-bottom: 0.3125em;
+    margin-bottom: 0.42em;
     display: block;    
 }
 
@@ -24,7 +24,7 @@
     font-weight: normal;
     font-size: 1.25em;
     line-height: 1.3;
-    padding: 0.9375em 1.5em 0.9375em 1.5em;
+    padding: 0.75em 1.2em 0.75em 1.2em;
     color: var(--text-details);
     outline: none;
     width: 100%;
@@ -72,4 +72,23 @@
 
 .input__content {
     position: relative;
+}
+
+.input_preview {
+    pointer-events: none;
+    font-size: 0.4rem;
+}
+
+.input_preview .input__icon {
+    transform: scale(0.66666) translate(1.5em, -1.5em);
+}
+
+@media screen and (min-width: 768px) {
+    .input_preview {
+        font-size: 0.8rem;
+    }    
+
+    .input_preview .input__icon {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
 }

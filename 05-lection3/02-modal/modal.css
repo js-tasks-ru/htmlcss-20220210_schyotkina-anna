@@ -25,7 +25,7 @@
     font-size: 1.25em;
     line-height: 1.2;
     color: var(--modal-title);
-    margin: 0 0 0.875em 0;
+    margin: 0 0 0.7em 0;
 }
 
 .modal__content {

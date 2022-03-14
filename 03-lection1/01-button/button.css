@@ -1,8 +1,8 @@
 /* Стилизация кнопки */
 .button {
-    min-width: 11.875rem;
+    min-width: 11.875em;
     padding: 0.9375em 0.9375em;
-    border-radius: 8px;
+    border-radius: 0.5em;
     border-width: 1px;
     border-style: solid;
     background-color: transparent;
@@ -52,7 +52,18 @@
     color: var(--alternate-text-color);
 }
 
-.button_preview {
-    min-width: 6rem;
+.button_modal-preview {    
     width: 6rem;
+}
+
+.button_preview {
+    pointer-events: none;
+    font-size: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .button_preview {
+        pointer-events: none;
+        font-size: 0.7rem;
+    }    
 }
