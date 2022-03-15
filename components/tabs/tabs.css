@@ -64,3 +64,26 @@
 #templates-tab:checked ~ .tabs__content-container .tabs__content_templates {
     display: block;
 }
+
+#html:checked ~ .tabs__header-container .tabs__label[for="html"],
+#css:checked ~ .tabs__header-container .tabs__label[for="css"] {
+    color: var(--text-main);
+}
+
+#html:focus ~ .tabs__header-container .tabs__label[for="html"],
+#css:focus ~ .tabs__header-container .tabs__label[for="css"] {
+    border-bottom: 5px solid var(--alternate-border-hover);
+}
+
+#html:checked ~ .tabs__content-container .tabs__content_html,
+#css:checked ~ .tabs__content-container .tabs__content_css {
+    display: block;
+}
+
+.tabs__code {
+    margin: 0;
+}
+
+.tabs__content-container {
+    padding: 3.125rem 2.625rem 4rem 2.625rem;
+}
