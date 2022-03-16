@@ -1,6 +1,6 @@
 .avatar {
-    width: 102px;
-    height: 102px;
+    width: 116px;
+    height: 116px;
     border-radius: 50%;
     display: inline-block;
     overflow: hidden;
@@ -10,4 +10,11 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .avatar {
+        width: 160px;
+        height: 160px;
+    }
 }

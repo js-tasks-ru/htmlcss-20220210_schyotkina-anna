@@ -45,3 +45,11 @@
 .tooltip__text {
     margin: 0;
 }
+
+.tooltip_preview {
+    margin-top: calc(9px + 1rem * 1.5 + 1rem);
+}
+
+.tooltip_preview .tooltip__bubble {
+    display: block;
+}

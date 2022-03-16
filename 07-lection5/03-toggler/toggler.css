@@ -11,16 +11,16 @@
 .toggle__state {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.75em;
     cursor: pointer;
 }
 
 .toggle__control {
-    width: 52px;
-    height: 28px;
+    width: 3.25em;
+    height: 1.75em;
     border: 1px solid var(--main-border);
     box-sizing: border-box;
-    border-radius: 16px;
+    border-radius: 1em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -29,18 +29,18 @@
 }
 
 .toggle__icon {
-    width: 24px;
-    height: 24px;
+    width: 1.5em;
+    height: 1.5em;
     background: var(--block-bg);
-    border-radius: 16px;
+    border-radius: 1em;
 }
 
 .toggle__title {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1em;
+    line-height: 1.5;
     color: var(--text-details);
 }
 
@@ -88,7 +88,7 @@
 .toggle__button_close {
     border-radius: 50%;
     background-color: var(--block-bg);
-    padding: 4px;
+    padding: 0.25rem;
 }
 
 .toggle__icon_burger {
@@ -97,10 +97,21 @@
 }
 
 .toggle__button {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
     box-sizing: border-box;
     font-size: 0;    
-    padding: 4px;        
+    padding: 0.25rem;        
+}
+
+.toggle_preview {
+    pointer-events: none;
+    font-size: 0.625rem;
+}
+
+@media screen and (min-width: 768px) {
+    .toggle_preview {
+        font-size: 1rem;
+    }    
 }

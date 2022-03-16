@@ -1,0 +1,31 @@
+.custom-elements-preview {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    width: 100%;
+    row-gap: 0.625rem;
+    padding: 0.625rem;
+    box-sizing: border-box;
+}
+
+.custom-elements-preview_one-column {
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+}
+
+.custom-elements-preview_short-gap {
+    row-gap: 0.15rem;
+}    
+
+.custom-elements-preview_column-gap {
+    column-gap: 0.625rem;
+}
+
+@media screen and (min-width: 768px) {
+    .custom-elements-preview {
+        row-gap: 1rem;
+        padding: 0;
+    }
+
+    .custom-elements-preview_short-gap {
+        row-gap: 0.3125rem;
+    }    
+}

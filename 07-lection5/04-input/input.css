@@ -6,12 +6,12 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--text-footer);
-    margin-bottom: 0.3125rem;
+    margin-bottom: 0.42em;
     display: block;    
 }
 
@@ -22,9 +22,9 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     line-height: 1.3;
-    padding: 0.9375rem 1.5rem 0.9375rem 1.5rem;
+    padding: 0.75em 1.2em 0.75em 1.2em;
     color: var(--text-details);
     outline: none;
     width: 100%;
@@ -50,13 +50,13 @@
 
 .input_invalid .input__input,
 .input_success .input__input {
-    padding-right: 3.5rem;
+    padding-right: 3.5em;
 }
 
 .input__icon {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 1em;
+    right: 1em;
     display: none;
     width: 24px;
     height: 24px;
@@ -72,4 +72,23 @@
 
 .input__content {
     position: relative;
+}
+
+.input_preview {
+    pointer-events: none;
+    font-size: 0.4rem;
+}
+
+.input_preview .input__icon {
+    transform: scale(0.66666) translate(1.5em, -1.5em);
+}
+
+@media screen and (min-width: 768px) {
+    .input_preview {
+        font-size: 0.8rem;
+    }    
+
+    .input_preview .input__icon {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
 }

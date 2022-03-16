@@ -1,0 +1,9 @@
+.modal-preview-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.modal-preview-content__button {    
+    width: 6rem;
+}
