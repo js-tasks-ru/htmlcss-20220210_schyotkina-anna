@@ -64,10 +64,12 @@
 
 .calendar_preview {
     font-size: 0.4375rem;
+    width: 7.5rem;
 }
 
 @media screen and (min-width: 768px) {
     .calendar_preview {
         font-size: 0.625rem;
+        width: 10.4375rem;
     }
 }

@@ -52,10 +52,6 @@
     color: var(--alternate-text-color);
 }
 
-.button_modal-preview {    
-    width: 6rem;
-}
-
 .button_preview {
     pointer-events: none;
     font-size: 0.3rem;

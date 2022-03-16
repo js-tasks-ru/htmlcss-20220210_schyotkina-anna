@@ -23,6 +23,8 @@
 @import '../../components/logo/logo.css';
 @import '../../components/tabs/tabs.css';
 @import '../../components/dark-mode/dark-mode.css';
+@import '../../components/custom-elements-preview/custom-elements-preview.css';
+@import '../../components/modal-preview/modal-preview.css';
 
 :root {
     --white: #ffffff;
