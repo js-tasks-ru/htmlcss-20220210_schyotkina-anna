@@ -1,4 +1,4 @@
-.component-view__inner {
+.component-view {
     font-family: Inter;
     display: grid;
     height: 100%;
@@ -7,6 +7,8 @@
 
 .component-view__view {
     background: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .component-view__title {
@@ -18,15 +20,20 @@
 }
 
 .component-view__header {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .component-view__content {
     width: 300px;
+    /*height: 187px;*/
+}
+
+.component-view__tabs {
+    padding: 0 1rem;
 }
 
 @media screen and (min-width: 768px) {
-    .component-view__inner {
+    .component-view {
         grid-template-columns: auto 1fr;
         gap: 3.5rem;
     }
@@ -37,7 +44,7 @@
     }  
  
     .component-view__header {
-        padding: 2rem 3rem;
+        padding: 2rem 3rem;   
     }
 
     .component-view__tabs {

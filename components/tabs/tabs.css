@@ -1,5 +1,6 @@
 .tabs__scroller {
-    display: inline-flex;
+    display: flex;
+    overflow-x: auto;
 }
 
 .tabs__input {
@@ -38,7 +39,10 @@
 }
 
 .tabs__content-container_code {
-    padding: 1.375rem 0 0.9375rem 0;
+    padding: 1.375rem 0.5rem 0.9375rem 0.5rem;
+    overflow: auto;
+    /*height: calc(100vh - 32px - 2 * 1.0625rem - 2rem * 2 - 187px - 13px - 1.5 * 1rem);*/
+    box-sizing: border-box;
 }
 
 #all-tab:checked ~ .tabs__header-container .tabs__label[for="all-tab"],
@@ -89,5 +93,7 @@
 
     .tabs__content-container_code {
         padding: 3.125rem 2.625rem 4rem 2.625rem;
+        overflow: visible;
+        height: 100%;
     }
 }
