@@ -95,50 +95,36 @@
                         </aside>
                         <article class="component-view__view">
                             <div class="component-view__header">
-                                <h3 class="component-view__title">Histogram</h3>
+                                <h3 class="component-view__title">Toggle</h3>
                                 <div class="component-view__content">
-                                    <div class="historgam">
-                                        <div class="historgam__header">
-                                            <div class="historgam__total-container">
-                                                <p class="historgam__text">Total orders</p>
-                                                <p class="historgam__text historgam__text_value">50254</p>
-                                            </div>
-                                            <div class="historgam__link-container">
-                                                <p class="historgam__link">View all</p>
-                                            </div>
-                                        </div>
-                                        <div class="historgam__content">
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 90%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 34%"></div>
-                                        </div>
+                                    <div class="custom-elements-preview custom-elements-preview_one-column">
+                                        <label class="toggle">
+                                            <input type="checkbox" class="toggle__input">
+                                            <span class="toggle__state">
+                                                <span class="toggle__control">
+                                                    <span class="toggle__icon"></span>
+                                                </span>
+                                                <span class="toggle__title">Off</span>
+                                            </span>
+                                        </label>  
+                                        <label class="toggle">
+                                            <input type="checkbox" class="toggle__input" checked>
+                                            <span class="toggle__state">
+                                                <span class="toggle__control">
+                                                    <span class="toggle__icon"></span>
+                                                </span>
+                                                <span class="toggle__title">On</span>
+                                            </span>
+                                        </label>                                          
+                                        <label class="toggle">
+                                            <input type="checkbox" class="toggle__input" disabled>
+                                            <span class="toggle__state">
+                                                <span class="toggle__control">
+                                                    <span class="toggle__icon"></span>
+                                                </span>
+                                                <span class="toggle__title">Disabled</span>
+                                            </span>
+                                        </label>
                                     </div>
                                 </div>  
                             </div>
@@ -154,103 +140,143 @@
                                     </div>    
                                     <div class="tabs__content-container tabs__content-container_code">
                                         <div class="tabs__content tabs__content_html">
-<pre class="tabs__code"><code>&lt;div class=&quot;historgam&quot;&gt;
-	&lt;div class=&quot;historgam__header&quot;&gt;
-		&lt;div class=&quot;historgam__total-container&quot;&gt;
-			&lt;p class=&quot;historgam__text&quot;&gt;Total orders&lt;/p&gt;
-			&lt;p class=&quot;historgam__text historgam__text_value&quot;&gt;50254&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;historgam__link-container&quot;&gt;
-			&lt;p class=&quot;historgam__link&quot;&gt;View all&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;historgam__content&quot;&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 90%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 34%&quot;&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+<pre class="tabs__code"><code>&lt;label class=&quot;toggle&quot;&gt;
+		&lt;input type=&quot;checkbox&quot; class=&quot;toggle__input&quot;&gt;
+		&lt;span class=&quot;toggle__state&quot;&gt;
+			&lt;span class=&quot;toggle__control&quot;&gt;
+				&lt;span class=&quot;toggle__icon&quot;&gt;&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;toggle__title&quot;&gt;Off&lt;/span&gt;
+		&lt;/span&gt;
+&lt;/label&gt;  
+&lt;label class=&quot;toggle&quot;&gt;
+		&lt;input type=&quot;checkbox&quot; class=&quot;toggle__input&quot; checked&gt;
+		&lt;span class=&quot;toggle__state&quot;&gt;
+			&lt;span class=&quot;toggle__control&quot;&gt;
+				&lt;span class=&quot;toggle__icon&quot;&gt;&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;toggle__title&quot;&gt;On&lt;/span&gt;
+		&lt;/span&gt;
+&lt;/label&gt;                                          
+&lt;label class=&quot;toggle&quot;&gt;
+		&lt;input type=&quot;checkbox&quot; class=&quot;toggle__input&quot; disabled&gt;
+		&lt;span class=&quot;toggle__state&quot;&gt;
+			&lt;span class=&quot;toggle__control&quot;&gt;
+				&lt;span class=&quot;toggle__icon&quot;&gt;&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;toggle__title&quot;&gt;Disabled&lt;/span&gt;
+		&lt;/span&gt;
+&lt;/label&gt;</code></pre>
                                         </div>
                                         <div class="tabs__content tabs__content_css">
-<pre class="tabs__code"><code>.historgam {
-    border: 1px solid var(--border);
+<pre class="tabs__code"><code>.toggle {
+    display: inline-flex;
+}
+
+.toggle__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+
+.toggle__state {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    cursor: pointer;
+}
+
+.toggle__control {
+    width: 3.25em;
+    height: 1.75em;
+    border: 1px solid var(--main-border);
     box-sizing: border-box;
-    border-radius: 8px;  
-    padding: 1em 1.5em 1.5em 1.625em;
+    border-radius: 1em;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1px;
+    background-color: var(--alternate-bg);
+}
+
+.toggle__icon {
+    width: 1.5em;
+    height: 1.5em;
+    background: var(--block-bg);
+    border-radius: 1em;
+}
+
+.toggle__title {
     font-family: Inter;
-}
-
-.historgam__header {
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2.4375em;
-}
-
-.historgam__content {
-    height: 50px;
-}
-
-.historgam__text {
-    opacity: 0.8;
-    color: var(--text-main);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
     line-height: 1.5;
-    margin: 0px;
+    color: var(--text-details);
 }
 
-.historgam__text_value {
-    font-size: 1.25em;
-    line-height: 1.3;
-    opacity: 1;
-    margin-top: 0.3em;
+.toggle__input:checked ~ .toggle__state .toggle__control {
+    background: var(--primary-bg);
+    border-color: var(--primary-border);
+    justify-content: flex-end;
 }
 
-.historgam__link {
-    margin-top: 0.1875em;
-    line-height: 1.5;
-    color: var(--primary-bg);
-    margin: 0;
+.toggle__input:checked ~ .toggle__state .toggle__icon {
+    background: var(--alternate-bg);
 }
 
-.historgam__content {
-    display: flex;
-    align-items: flex-end;
-    gap: 1px;
+.toggle__input:focus ~ .toggle__state .toggle__title {
+    text-decoration: underline;
 }
 
-.historgam__column {
-    background-color: var(--primary-bg);    
-    flex-grow: 1;    
-}</code></pre>                                            
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+    background: var(--block-bg);    
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control .toggle__icon {
+    background: var(--control-bg);
+    opacity: 0.25;
+}
+
+.toggle__input:disabled ~ .toggle__state {
+    cursor: default;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__button_close,
+.toggle__input:not(:checked) ~ .toggle__state .toggle__button_open {
+    display: block;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__button_open,
+.toggle__input:not(:checked) ~ .toggle__state .toggle__button_close {
+    display: none;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__icon_burger {
+    background-color: transparent;
+}
+
+.toggle__button_close {
+    border-radius: 50%;
+    background-color: var(--block-bg);
+    padding: 0.25rem;
+}
+
+.toggle__icon_burger {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.toggle__button {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 0;    
+    padding: 0.25rem;        
+}</code></pre>
                                         </div>
                                     </div>
                                 </div>  

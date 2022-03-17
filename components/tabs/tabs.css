@@ -40,8 +40,7 @@
 
 .tabs__content-container_code {
     padding: 1.375rem 0.5rem 0.9375rem 0.5rem;
-    overflow: auto;
-    /*height: calc(100vh - 32px - 2 * 1.0625rem - 2rem * 2 - 187px - 13px - 1.5 * 1rem);*/
+    overflow-x: auto;
     box-sizing: border-box;
 }
 
@@ -93,7 +92,7 @@
 
     .tabs__content-container_code {
         padding: 3.125rem 2.625rem 4rem 2.625rem;
-        overflow: visible;
+        overflow: auto;
         height: 100%;
     }
 }

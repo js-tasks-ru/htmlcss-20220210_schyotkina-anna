@@ -1,14 +1,14 @@
-.skeleton__top {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 1em;
-}
-
 .skeleton {
     padding: 1.5em 2.5em 1.5em 1.5em;
     border: 1px solid var(--border);
     box-sizing: border-box;
     border-radius: 8px;
+}
+
+.skeleton__top {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
 }
 
 .skeleton__block {

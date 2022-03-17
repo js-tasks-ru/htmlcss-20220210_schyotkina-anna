@@ -95,50 +95,15 @@
                         </aside>
                         <article class="component-view__view">
                             <div class="component-view__header">
-                                <h3 class="component-view__title">Histogram</h3>
+                                <h3 class="component-view__title">Buttons</h3>
                                 <div class="component-view__content">
-                                    <div class="historgam">
-                                        <div class="historgam__header">
-                                            <div class="historgam__total-container">
-                                                <p class="historgam__text">Total orders</p>
-                                                <p class="historgam__text historgam__text_value">50254</p>
-                                            </div>
-                                            <div class="historgam__link-container">
-                                                <p class="historgam__link">View all</p>
-                                            </div>
-                                        </div>
-                                        <div class="historgam__content">
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 90%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 34%"></div>
-                                        </div>
+                                    <div class="custom-elements-preview custom-elements-preview_column-gap">
+                                        <button class="button button_primary">Primary</button>
+                                        <button class="button button_primary" disabled>Primary</button>
+                                        <button class="button button_secondary">Secondary</button>
+                                        <button class="button button_secondary" disabled>Secondary</button>
+                                        <button class="button button_alternate">Alternate</button>                                            
+                                        <button class="button button_alternate" disabled>Alternate</button>
                                     </div>
                                 </div>  
                             </div>
@@ -154,103 +119,66 @@
                                     </div>    
                                     <div class="tabs__content-container tabs__content-container_code">
                                         <div class="tabs__content tabs__content_html">
-<pre class="tabs__code"><code>&lt;div class=&quot;historgam&quot;&gt;
-	&lt;div class=&quot;historgam__header&quot;&gt;
-		&lt;div class=&quot;historgam__total-container&quot;&gt;
-			&lt;p class=&quot;historgam__text&quot;&gt;Total orders&lt;/p&gt;
-			&lt;p class=&quot;historgam__text historgam__text_value&quot;&gt;50254&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;historgam__link-container&quot;&gt;
-			&lt;p class=&quot;historgam__link&quot;&gt;View all&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;historgam__content&quot;&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 90%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 34%&quot;&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+<pre class="tabs__code"><code>&lt;button class=&quot;button button_primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button button_primary&quot; disabled&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button button_secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button class=&quot;button button_secondary&quot; disabled&gt;Secondary&lt;/button&gt;
+&lt;button class=&quot;button button_alternate&quot;&gt;Alternate&lt;/button&gt;                                            
+&lt;button class=&quot;button button_alternate&quot; disabled&gt;Alternate&lt;/button&gt;</code></pre>
                                         </div>
                                         <div class="tabs__content tabs__content_css">
-<pre class="tabs__code"><code>.historgam {
-    border: 1px solid var(--border);
-    box-sizing: border-box;
-    border-radius: 8px;  
-    padding: 1em 1.5em 1.5em 1.625em;
-    display: flex;
-    flex-direction: column;
-    font-family: Inter;
+<pre class="tabs__code"><code>.button {
+    min-width: 11.875em;
+    padding: 0.9375em 0.9375em;
+    border-radius: 0.5em;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+    line-height: 1.1875;
+    font-weight: 500;
 }
 
-.historgam__header {
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2.4375em;
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
 }
 
-.historgam__content {
-    height: 50px;
+.button_primary:hover {
+    background-color: var(--primary-bg-hover);    
+    border-color: var(--primary-border-hover);
 }
 
-.historgam__text {
-    opacity: 0.8;
-    color: var(--text-main);
-    line-height: 1.5;
-    margin: 0px;
+.button_primary {
+    background-color: var(--primary-bg);
+    border-color: var(--primary-border);
+    color: var(--primary-text-color);
 }
 
-.historgam__text_value {
-    font-size: 1.25em;
-    line-height: 1.3;
-    opacity: 1;
-    margin-top: 0.3em;
+.button_secondary:hover {
+    background-color: var(--secondary-bg-hover);    
+    border-color: var(--secondary-border-hover);
 }
 
-.historgam__link {
-    margin-top: 0.1875em;
-    line-height: 1.5;
-    color: var(--primary-bg);
-    margin: 0;
+.button_secondary {
+    background-color: var(--secondary-bg);
+    border-color: var(--secondary-border);
+    color: var(--secondary-text-color);
 }
 
-.historgam__content {
-    display: flex;
-    align-items: flex-end;
-    gap: 1px;
+.button_alternate:hover {
+    background-color: var(--alternate-bg-hover);    
+    border-color: var(--alternate-border-hover);
 }
 
-.historgam__column {
-    background-color: var(--primary-bg);    
-    flex-grow: 1;    
-}</code></pre>                                            
+.button_alternate {
+    background-color: var(--alternate);
+    border-color: var(--alternate-border);
+    color: var(--alternate-text-color);
+}</code></pre>
                                         </div>
                                     </div>
                                 </div>  

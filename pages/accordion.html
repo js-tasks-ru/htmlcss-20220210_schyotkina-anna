@@ -95,50 +95,35 @@
                         </aside>
                         <article class="component-view__view">
                             <div class="component-view__header">
-                                <h3 class="component-view__title">Histogram</h3>
+                                <h3 class="component-view__title">Accordion</h3>
                                 <div class="component-view__content">
-                                    <div class="historgam">
-                                        <div class="historgam__header">
-                                            <div class="historgam__total-container">
-                                                <p class="historgam__text">Total orders</p>
-                                                <p class="historgam__text historgam__text_value">50254</p>
-                                            </div>
-                                            <div class="historgam__link-container">
-                                                <p class="historgam__link">View all</p>
-                                            </div>
-                                        </div>
-                                        <div class="historgam__content">
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 100%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 44%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 78%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 90%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 60%"></div>
-                                            <div class="historgam__column" style="height: 22%"></div>
-                                            <div class="historgam__column" style="height: 70%"></div>
-                                            <div class="historgam__column" style="height: 34%"></div>
-                                        </div>
+                                    <div class='accordion'>            
+                                        <details class='accordion__accordion-item' open>                                
+                                            <summary class='accordion__summary'>
+                                                <svg class='accordion__icon'>
+                                                    <use href='../assets/images/icons-sprite.svg#arrow'></use>
+                                                </svg>
+                                                <p class='accordion__text-summary'>
+                                                    Заголовок блока
+                                                </p>
+                                            </summary>
+                                            <p class='accordion__text-details'>
+                                                Содержимое блока 1. Далеко-далеко за словесными горами...
+                                            </p>
+                                        </details>
+                                        <details class='accordion__accordion-item'>
+                                            <summary class='accordion__summary'>
+                                                <svg class='accordion__icon'>
+                                                    <use href='../assets/images/icons-sprite.svg#arrow'></use>
+                                                </svg>             
+                                                <p class='accordion__text-summary'>
+                                                    Какой-либо вопрос
+                                                </p>       
+                                            </summary>
+                                            <p class='accordion__text-details'>
+                                                Какой-то ответ.
+                                            </p>
+                                        </details>                       
                                     </div>
                                 </div>  
                             </div>
@@ -154,103 +139,85 @@
                                     </div>    
                                     <div class="tabs__content-container tabs__content-container_code">
                                         <div class="tabs__content tabs__content_html">
-<pre class="tabs__code"><code>&lt;div class=&quot;historgam&quot;&gt;
-	&lt;div class=&quot;historgam__header&quot;&gt;
-		&lt;div class=&quot;historgam__total-container&quot;&gt;
-			&lt;p class=&quot;historgam__text&quot;&gt;Total orders&lt;/p&gt;
-			&lt;p class=&quot;historgam__text historgam__text_value&quot;&gt;50254&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;div class=&quot;historgam__link-container&quot;&gt;
-			&lt;p class=&quot;historgam__link&quot;&gt;View all&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class=&quot;historgam__content&quot;&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 90%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
-		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 34%&quot;&gt;&lt;/div&gt;
-	&lt;/div&gt;
+<pre class="tabs__code"><code>&lt;div class='accordion'&gt;            
+	&lt;details class='accordion__accordion-item' open&gt;                                
+		&lt;summary class='accordion__summary'&gt;
+			&lt;svg class='accordion__icon'&gt;
+				&lt;use href='../assets/images/icons-sprite.svg#arrow'&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+			&lt;p class='accordion__text-summary'&gt;
+				Заголовок блока
+			&lt;/p&gt;
+		&lt;/summary&gt;
+		&lt;p class='accordion__text-details'&gt;
+			Содержимое блока 1. Далеко-далеко за словесными горами...
+        &lt;/p&gt;
+	&lt;/details&gt;
+	&lt;details class='accordion__accordion-item'&gt;
+		&lt;summary class='accordion__summary'&gt;
+			&lt;svg class='accordion__icon'&gt;
+				&lt;use href='../assets/images/icons-sprite.svg#arrow'&gt;&lt;/use&gt;
+			&lt;/svg&gt;             
+			&lt;p class='accordion__text-summary'&gt;
+				Какой-либо вопрос
+			&lt;/p&gt;       
+		&lt;/summary&gt;
+		&lt;p class='accordion__text-details'&gt;
+			Какой-то ответ.
+		&lt;/p&gt;
+	&lt;/details&gt;                       
 &lt;/div&gt;</code></pre>
                                         </div>
                                         <div class="tabs__content tabs__content_css">
-<pre class="tabs__code"><code>.historgam {
+<pre class="tabs__code"><code>.accordion {
+    max-width: 45.625rem;
+}
+
+.accordion__accordion-item {
+    margin-bottom: 0.5em;
     border: 1px solid var(--border);
     box-sizing: border-box;
-    border-radius: 8px;  
-    padding: 1em 1.5em 1.5em 1.625em;
-    display: flex;
-    flex-direction: column;
+    border-radius: 8px;
     font-family: Inter;
+    line-height: 1.5;
+    font-weight: normal;    
+    padding: 1.5em 2em;    
 }
 
-.historgam__header {
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2.4375em;
+.accordion__accordion-item:last-child {
+    margin-bottom: 0px;
 }
 
-.historgam__content {
-    height: 50px;
+.accordion__accordion-item[open] .accordion__icon {
+    transform: rotate(180deg);
 }
 
-.historgam__text {
-    opacity: 0.8;
+.accordion__summary {    
     color: var(--text-main);
-    line-height: 1.5;
-    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
-.historgam__text_value {
-    font-size: 1.25em;
-    line-height: 1.3;
-    opacity: 1;
-    margin-top: 0.3em;
+.accordion__summary::-webkit-details-marker {
+    display: none;
 }
 
-.historgam__link {
-    margin-top: 0.1875em;
-    line-height: 1.5;
-    color: var(--primary-bg);
+.accordion__text-summary {
     margin: 0;
 }
 
-.historgam__content {
-    display: flex;
-    align-items: flex-end;
-    gap: 1px;
+.accordion__text-details {
+    color: var(--text-details);
+    margin: 1em 0 0 0;
+    padding: 0 1.0625em 0.5em 0;    
 }
 
-.historgam__column {
-    background-color: var(--primary-bg);    
-    flex-grow: 1;    
-}</code></pre>                                            
+.accordion__icon {
+    width: 1.625rem;
+    height: 1.625rem;
+    cursor: pointer;    
+}</code></pre>
                                         </div>
                                     </div>
                                 </div>  
