@@ -97,7 +97,8 @@
                             <div class="component-view__header">
                                 <h3 class="component-view__title">Modal dialog</h3>
                                 <div class="component-view__content">
-                                    <div class="modal modal_preview">
+                                    <button id="modal-open" class="button button_primary">Open modal</button>
+                                    <div id="modal" class="modal">
                                         <div class="modal__window">
                                             <svg id="modal-close" class="modal__close-image">
                                                 <use href='../assets/images/icons-sprite.svg#cross'></use>
@@ -127,7 +128,7 @@
                                 </div>  
                             </div>
                             <div class="component-view__code">
-                                <div class="tabs">                    
+                                <div class="tabs tabs_components">                    
                                     <input type="radio" name="tabsGroup" id="html" class="tabs__input" checked>
                                     <input type="radio" name="tabsGroup" id="css" class="tabs__input">
                                     <div class="tabs__header-container component-view__tabs">
@@ -142,13 +143,13 @@
 	&lt;div class=&quot;modal__window&quot;&gt;
 		&lt;svg id=&quot;modal-close&quot; class=&quot;modal__close-image&quot;&gt;
 			&lt;use href='../assets/images/icons-sprite.svg#cross'&gt;&lt;/use&gt;
-		&lt;/svg&gt;                         
+		&lt;/svg&gt;
 		&lt;h3 class=&quot;modal__title&quot;&gt;
 			Modal title
 		&lt;/h3&gt;
-		&lt;div class=&quot;modal__content&quot;&gt;			                                                  
-		&lt;/div&gt; 
-	&lt;/div&gt;            
+		&lt;div class=&quot;modal__content&quot;&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
 &lt;/div&gt;</code></pre>
                                         </div>
                                         <div class="tabs__content tabs__content_css">
@@ -217,4 +218,5 @@
             </footer>
         </div>
     </body>
+    <script src="../05-lection3/02-modal/index.js"></script> 
 </html>

@@ -51,6 +51,10 @@
     flex-grow: 1;    
 }
 
+.historgam_preview100 {
+    width: 100%;
+}
+
 .historgam_preview {
     width: 100%;
     font-size: 0.625rem;

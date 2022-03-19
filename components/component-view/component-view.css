@@ -9,6 +9,8 @@
     background: #FFFFFF;
     overflow-x: hidden;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .component-view__title {
@@ -25,10 +27,19 @@
 
 .component-view__content {
     width: 300px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .component-view__tabs {
     padding: 0 1rem;
+}
+
+.component-view__code {
+    flex-grow: 1;
 }
 
 @media screen and (min-width: 768px) {
