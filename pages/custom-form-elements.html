@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!-- Главная страница -->
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>     
+        <div class="page page_secondary">
+            <header class="header header_secondary">
+                <div class="container container_secondary">
+                    <div class="toggle header__burger-button">
+                        <input type="checkbox" class="toggle__input" id="burger_button">
+                        <label for="burger_button" class="toggle__state">
+                            <div class="toggle__button toggle__button_close">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                </svg> 
+                            </div>
+                            <div class="toggle__button toggle__button_open">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                </svg> 
+                            </div>    
+                        </label>
+                        <div class="burger header__burger-menu">  
+                            <div class="dark-mode">
+                                <span class="dark-mode__title">Dark mode</span>
+                                <label class="toggle">
+                                    <input type="checkbox" class="toggle__input">
+                                    <span class="toggle__state">
+                                        <span class="toggle__control">
+                                            <span class="toggle__icon"></span>
+                                        </span>
+                                    </span>
+                                </label> 
+                            </div>
+                            <div class="menu">
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Elements</h4>
+                                    <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                    <a href="./custom-form-elements.html" class="menu__item menu__item_select">Custom form elements</a>
+                                    <a href="./avatar.html" class="menu__item">Avatar</a>
+                                    <a href="./toggle.html" class="menu__item">Toggle</a>
+                                    <a href="./input.html" class="menu__item">Input</a>
+                                    <a href="./buttons.html" class="menu__item">Buttons</a>
+                                </div>
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Containers</h4>
+                                    <a href="./calendar.html" class="menu__item">Calendar</a>
+                                    <a href="./accordion.html" class="menu__item">Accordion</a>
+                                </div>                   
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Templates</h4>
+                                    <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                    <a href="./histogram.html" class="menu__item">Histogram</a>
+                                    <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                                </div>                                                                 
+                                <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img class="logo__image" src="../assets/images/logo.svg">
+                    </div>
+                </div>
+            </header>        
+            <main>
+                <div class="container container_secondary">
+                    <section class="component-view">
+                        <aside class="menu menu_page">
+                            <div class="menu__block">
+                                <h4 class="menu__title">Elements</h4>
+                                <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                <a href="./custom-form-elements.html" class="menu__item menu__item_select">Custom form elements</a>
+                                <a href="./avatar.html" class="menu__item">Avatar</a>
+                                <a href="./toggle.html" class="menu__item">Toggle</a>
+                                <a href="./input.html" class="menu__item">Input</a>
+                                <a href="./buttons.html" class="menu__item">Buttons</a>
+                            </div>
+                            <div class="menu__block">
+                                <h4 class="menu__title">Containers</h4>
+                                <a href="./calendar.html" class="menu__item">Calendar</a>
+                                <a href="./accordion.html" class="menu__item">Accordion</a>
+                            </div>                   
+                            <div class="menu__block">
+                                <h4 class="menu__title">Templates</h4>
+                                <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                <a href="./histogram.html" class="menu__item">Histogram</a>
+                                <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                            </div>                                                                 
+                            <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                        </aside>
+                        <article class="component-view__view">
+                            <div class="component-view__header">
+                                <h3 class="component-view__title">Custom form elements</h3>
+                                <div class="component-view__content">
+                                    <div class="custom-elements-preview">
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="checkbox__input">
+                                            <span class="checkbox__state">
+                                                <span class="checkbox__control">
+                                                    <svg class="checkbox__icon">
+                                                        <use href="../assets/images/icons-sprite.svg#checkbox"></use>
+                                                    </svg>                    
+                                                </span>
+                                                <span class="checkbox__title">Default</span>
+                                            </span>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="radioGroup1" class="radio__input">
+                                            <span class="radio__state">
+                                                <span class="radio__control">
+                                                    <span class="radio__icon"></span>
+                                                </span>
+                                                <span class="radio__title">Default</span>
+                                            </span>
+                                        </label>    
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="checkbox__input" checked>
+                                            <span class="checkbox__state">
+                                                <span class="checkbox__control">
+                                                    <svg class="checkbox__icon">
+                                                        <use href="../assets/images/icons-sprite.svg#checkbox"></use>
+                                                    </svg>                    
+                                                </span>
+                                                <span class="checkbox__title">Checked</span>
+                                            </span>
+                                        </label>                                        
+                                        <label class="radio">
+                                            <input type="radio" name="radioGroup1" class="radio__input" checked>
+                                            <span class="radio__state">
+                                                <span class="radio__control">
+                                                    <span class="radio__icon"></span>
+                                                </span>
+                                                <span class="radio__title">Selected</span>
+                                            </span>
+                                        </label>               
+                                        <label class="checkbox">
+                                            <input type="checkbox" class="checkbox__input" disabled>
+                                            <span class="checkbox__state">
+                                                <span class="checkbox__control">
+                                                    <svg class="checkbox__icon">
+                                                        <use href="../assets/images/icons-sprite.svg#checkbox"></use>
+                                                    </svg>                    
+                                                </span>
+                                                <span class="checkbox__title">Disabled</span>
+                                            </span>
+                                        </label>                                                                                                             
+                                        <label class="radio">
+                                            <input type="radio" name="radioGroup1" class="radio__input" disabled>
+                                            <span class="radio__state">
+                                                <span class="radio__control">
+                                                    <span class="radio__icon"></span> 
+                                                </span>
+                                                <span class="radio__title">Disabled</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="component-view__code">
+                                <div class="tabs tabs_components">                    
+                                    <input type="radio" name="tabsGroup" id="html" class="tabs__input" checked>
+                                    <input type="radio" name="tabsGroup" id="css" class="tabs__input">
+                                    <div class="tabs__header-container component-view__tabs">
+                                        <div class="tabs__scroller">
+                                            <label class="tabs__label" for="html">HTML</label>
+                                            <label class="tabs__label" for="css">CSS</label>
+                                        </div>
+                                    </div>    
+                                    <div class="tabs__content-container tabs__content-container_code">
+                                        <div class="tabs__content tabs__content_html">
+<pre class="tabs__code"><code>&lt;label class=&quot;checkbox&quot;&gt;
+	&lt;input type=&quot;checkbox&quot; class=&quot;checkbox__input&quot;&gt;
+	&lt;span class=&quot;checkbox__state&quot;&gt;
+		&lt;span class=&quot;checkbox__control&quot;&gt;
+			&lt;svg class=&quot;checkbox__icon&quot;&gt;
+				&lt;use href=&quot;../assets/images/icons-sprite.svg#checkbox&quot;&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;checkbox__title&quot;&gt;Default&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class=&quot;radio&quot;&gt;
+	&lt;input type=&quot;radio&quot; name=&quot;radioGroup1&quot; class=&quot;radio__input&quot;&gt;
+	&lt;span class=&quot;radio__state&quot;&gt;
+		&lt;span class=&quot;radio__control&quot;&gt;
+			&lt;span class=&quot;radio__icon&quot;&gt;&lt;/span&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;radio__title&quot;&gt;Default&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class=&quot;checkbox&quot;&gt;
+	&lt;input type=&quot;checkbox&quot; class=&quot;checkbox__input&quot; checked&gt;
+	&lt;span class=&quot;checkbox__state&quot;&gt;
+		&lt;span class=&quot;checkbox__control&quot;&gt;
+			&lt;svg class=&quot;checkbox__icon&quot;&gt;
+				&lt;use href=&quot;../assets/images/icons-sprite.svg#checkbox&quot;&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;checkbox__title&quot;&gt;Checked&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class=&quot;radio&quot;&gt;
+	&lt;input type=&quot;radio&quot; name=&quot;radioGroup1&quot; class=&quot;radio__input&quot; checked&gt;
+	&lt;span class=&quot;radio__state&quot;&gt;
+		&lt;span class=&quot;radio__control&quot;&gt;
+			&lt;span class=&quot;radio__icon&quot;&gt;&lt;/span&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;radio__title&quot;&gt;Selected&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class=&quot;checkbox&quot;&gt;
+	&lt;input type=&quot;checkbox&quot; class=&quot;checkbox__input&quot; disabled&gt;
+	&lt;span class=&quot;checkbox__state&quot;&gt;
+		&lt;span class=&quot;checkbox__control&quot;&gt;
+			&lt;svg class=&quot;checkbox__icon&quot;&gt;
+				&lt;use href=&quot;../assets/images/icons-sprite.svg#checkbox&quot;&gt;&lt;/use&gt;
+			&lt;/svg&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;checkbox__title&quot;&gt;Disabled&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/label&gt;
+&lt;label class=&quot;radio&quot;&gt;
+	&lt;input type=&quot;radio&quot; name=&quot;radioGroup1&quot; class=&quot;radio__input&quot; disabled&gt;
+	&lt;span class=&quot;radio__state&quot;&gt;
+		&lt;span class=&quot;radio__control&quot;&gt;
+			&lt;span class=&quot;radio__icon&quot;&gt;&lt;/span&gt;
+		&lt;/span&gt;
+		&lt;span class=&quot;radio__title&quot;&gt;Disabled&lt;/span&gt;
+	&lt;/span&gt;
+&lt;/label&gt;</code></pre>
+                                        </div>
+                                        <div class="tabs__content tabs__content_css">
+<pre class="tabs__code"><code>.checkbox {
+    display: inline-flex;
+}
+
+.checkbox__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+
+.checkbox__state {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    cursor: pointer;
+}
+
+.checkbox__control {
+    width: 1.75em;
+    height: 1.75em;
+    border: 1px solid var(--main-border);
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+}
+
+.checkbox__icon {
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--text-details);
+}
+
+.checkbox__input:checked ~ .checkbox__state .checkbox__control {
+    background: var(--primary-bg);
+    border-color: var(--primary-border);
+}
+
+.checkbox__input:focus ~ .checkbox__state .checkbox__title {
+    text-decoration: underline;
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
+    background: var(--block-bg);
+    border-color: var(--main-border);
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control .checkbox__icon {
+    opacity: 0;
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__title {
+    color: var(--text-secondary);
+}
+
+.checkbox__input:disabled ~ .checkbox__state {
+    cursor: default;
+}
+
+.radio {
+    display: inline-flex;
+}
+
+.radio__input {
+    position: absolute;
+    outline: none;
+    clip: rect(0, 0, 0, 0);
+}
+
+.radio__state {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    cursor: pointer;
+}
+
+.radio__control {
+    width: 1.75em;
+    height: 1.75em;
+    border: 1px solid var(--main-border);
+    box-sizing: border-box;
+    border-radius: 0.875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio__icon {
+    width: 1.125em;
+    height: 1.125em;
+    background: var(--alternate-bg);
+    border-radius: 0.875em;
+}
+
+.radio__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--text-details);
+}
+
+.radio__input:checked ~ .radio__state .radio__control {
+    border: 2px solid var(--primary-border);
+}
+
+.radio__input:checked ~ .radio__state .radio__icon {
+    background: var(--primary-bg);    
+}
+
+.radio__input:focus ~ .radio__state .radio__title {
+    text-decoration: underline;
+}
+
+.radio__input:disabled ~ .radio__state .radio__control,
+.radio__input:disabled ~ .radio__state .radio__control .radio__icon {
+    background: var(--block-bg);    
+}
+
+.radio__input:disabled ~ .radio__state .radio__title {
+    color: var(--text-secondary);
+}
+
+.radio__input:disabled ~ .radio__state {
+    cursor: default;
+}</code></pre>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>                            
+                        </article>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer footer_secondary">
+                <div class="container container_secondary">
+                    <h5 class="footer__text footer__text_secondary">Reusable component library</h5>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -92,6 +92,8 @@
 }
 
 .toggle__icon_burger {
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 0;
     background-color: transparent;
 }

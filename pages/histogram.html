@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- Главная страница -->
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>     
+        <div class="page page_secondary">
+            <header class="header header_secondary">
+                <div class="container container_secondary">
+                    <div class="toggle header__burger-button">
+                        <input type="checkbox" class="toggle__input" id="burger_button">
+                        <label for="burger_button" class="toggle__state">
+                            <div class="toggle__button toggle__button_close">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                </svg> 
+                            </div>
+                            <div class="toggle__button toggle__button_open">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                </svg> 
+                            </div>    
+                        </label>
+                        <div class="burger header__burger-menu">  
+                            <div class="dark-mode">
+                                <span class="dark-mode__title">Dark mode</span>
+                                <label class="toggle">
+                                    <input type="checkbox" class="toggle__input">
+                                    <span class="toggle__state">
+                                        <span class="toggle__control">
+                                            <span class="toggle__icon"></span>
+                                        </span>
+                                    </span>
+                                </label> 
+                            </div>
+                            <div class="menu">
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Elements</h4>
+                                    <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                    <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                    <a href="./avatar.html" class="menu__item">Avatar</a>
+                                    <a href="./toggle.html" class="menu__item">Toggle</a>
+                                    <a href="./input.html" class="menu__item">Input</a>
+                                    <a href="./buttons.html" class="menu__item">Buttons</a>
+                                </div>
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Containers</h4>
+                                    <a href="./calendar.html" class="menu__item">Calendar</a>
+                                    <a href="./accordion.html" class="menu__item">Accordion</a>
+                                </div>                   
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Templates</h4>
+                                    <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                    <a href="./histogram.html" class="menu__item menu__item_select">Histogram</a>
+                                    <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                                </div>                                                                 
+                                <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img class="logo__image" src="../assets/images/logo.svg">
+                    </div>
+                </div>
+            </header>        
+            <main>
+                <div class="container container_secondary">
+                    <section class="component-view">
+                        <aside class="menu menu_page">
+                            <div class="menu__block">
+                                <h4 class="menu__title">Elements</h4>
+                                <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                <a href="./avatar.html" class="menu__item">Avatar</a>
+                                <a href="./toggle.html" class="menu__item">Toggle</a>
+                                <a href="./input.html" class="menu__item">Input</a>
+                                <a href="./buttons.html" class="menu__item">Buttons</a>
+                            </div>
+                            <div class="menu__block">
+                                <h4 class="menu__title">Containers</h4>
+                                <a href="./calendar.html" class="menu__item">Calendar</a>
+                                <a href="./accordion.html" class="menu__item">Accordion</a>
+                            </div>                   
+                            <div class="menu__block">
+                                <h4 class="menu__title">Templates</h4>
+                                <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                <a href="./histogram.html" class="menu__item menu__item_select">Histogram</a>
+                                <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                            </div>                                                                 
+                            <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                        </aside>
+                        <article class="component-view__view">
+                            <div class="component-view__header">
+                                <h3 class="component-view__title">Histogram</h3>
+                                <div class="component-view__content">
+                                    <div class="historgam component-view__preview-el">
+                                        <div class="historgam__header">
+                                            <div class="historgam__total-container">
+                                                <p class="historgam__text">Total orders</p>
+                                                <p class="historgam__text historgam__text_value">50254</p>
+                                            </div>
+                                            <div class="historgam__link-container">
+                                                <p class="historgam__link">View all</p>
+                                            </div>
+                                        </div>
+                                        <div class="historgam__content">
+                                            <div class="historgam__column" style="height: 100%"></div>
+                                            <div class="historgam__column" style="height: 70%"></div>
+                                            <div class="historgam__column" style="height: 44%"></div>
+                                            <div class="historgam__column" style="height: 78%"></div>
+                                            <div class="historgam__column" style="height: 44%"></div>
+                                            <div class="historgam__column" style="height: 60%"></div>
+                                            <div class="historgam__column" style="height: 78%"></div>
+                                            <div class="historgam__column" style="height: 100%"></div>
+                                            <div class="historgam__column" style="height: 22%"></div>
+                                            <div class="historgam__column" style="height: 44%"></div>
+                                            <div class="historgam__column" style="height: 60%"></div>
+                                            <div class="historgam__column" style="height: 70%"></div>
+                                            <div class="historgam__column" style="height: 22%"></div>
+                                            <div class="historgam__column" style="height: 100%"></div>
+                                            <div class="historgam__column" style="height: 22%"></div>
+                                            <div class="historgam__column" style="height: 78%"></div>
+                                            <div class="historgam__column" style="height: 60%"></div>
+                                            <div class="historgam__column" style="height: 44%"></div>
+                                            <div class="historgam__column" style="height: 70%"></div>
+                                            <div class="historgam__column" style="height: 60%"></div>
+                                            <div class="historgam__column" style="height: 22%"></div>
+                                            <div class="historgam__column" style="height: 78%"></div>
+                                            <div class="historgam__column" style="height: 70%"></div>
+                                            <div class="historgam__column" style="height: 90%"></div>
+                                            <div class="historgam__column" style="height: 60%"></div>
+                                            <div class="historgam__column" style="height: 22%"></div>
+                                            <div class="historgam__column" style="height: 60%"></div>
+                                            <div class="historgam__column" style="height: 22%"></div>
+                                            <div class="historgam__column" style="height: 70%"></div>
+                                            <div class="historgam__column" style="height: 34%"></div>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="component-view__code">
+                                <div class="tabs tabs_components">                    
+                                    <input type="radio" name="tabsGroup" id="html" class="tabs__input" checked>
+                                    <input type="radio" name="tabsGroup" id="css" class="tabs__input">
+                                    <div class="tabs__header-container component-view__tabs">
+                                        <div class="tabs__scroller">
+                                            <label class="tabs__label" for="html">HTML</label>
+                                            <label class="tabs__label" for="css">CSS</label>
+                                        </div>
+                                    </div>    
+                                    <div class="tabs__content-container tabs__content-container_code">
+                                        <div class="tabs__content tabs__content_html">
+<pre class="tabs__code"><code>&lt;div class=&quot;historgam&quot;&gt;
+	&lt;div class=&quot;historgam__header&quot;&gt;
+		&lt;div class=&quot;historgam__total-container&quot;&gt;
+			&lt;p class=&quot;historgam__text&quot;&gt;Total orders&lt;/p&gt;
+			&lt;p class=&quot;historgam__text historgam__text_value&quot;&gt;50254&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;historgam__link-container&quot;&gt;
+			&lt;p class=&quot;historgam__link&quot;&gt;View all&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;historgam__content&quot;&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 100%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 44%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 78%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 90%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 60%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 22%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 70%&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;historgam__column&quot; style=&quot;height: 34%&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                        </div>
+                                        <div class="tabs__content tabs__content_css">
+<pre class="tabs__code"><code>.historgam {
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    border-radius: 8px;  
+    padding: 1em 1.5em 1.5em 1.625em;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+}
+
+.historgam__header {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.4375em;
+}
+
+.historgam__content {
+    height: 50px;
+}
+
+.historgam__text {
+    opacity: 0.8;
+    color: var(--text-main);
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.historgam__text_value {
+    font-size: 1.25em;
+    line-height: 1.3;
+    opacity: 1;
+    margin-top: 0.3em;
+}
+
+.historgam__link {
+    margin-top: 0.1875em;
+    line-height: 1.5;
+    color: var(--primary-bg);
+    margin: 0;
+}
+
+.historgam__content {
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+}
+
+.historgam__column {
+    background-color: var(--primary-bg);    
+    flex-grow: 1;    
+}</code></pre>                                            
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>                            
+                        </article>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer footer_secondary">
+                <div class="container container_secondary">
+                    <h5 class="footer__text footer__text_secondary">Reusable component library</h5>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

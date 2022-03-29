@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- Главная страница -->
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>     
+        <div class="page page_secondary">
+            <header class="header header_secondary">
+                <div class="container container_secondary">
+                    <div class="toggle header__burger-button">
+                        <input type="checkbox" class="toggle__input" id="burger_button">
+                        <label for="burger_button" class="toggle__state">
+                            <div class="toggle__button toggle__button_close">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                </svg> 
+                            </div>
+                            <div class="toggle__button toggle__button_open">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                </svg> 
+                            </div>    
+                        </label>
+                        <div class="burger header__burger-menu">  
+                            <div class="dark-mode">
+                                <span class="dark-mode__title">Dark mode</span>
+                                <label class="toggle">
+                                    <input type="checkbox" class="toggle__input">
+                                    <span class="toggle__state">
+                                        <span class="toggle__control">
+                                            <span class="toggle__icon"></span>
+                                        </span>
+                                    </span>
+                                </label> 
+                            </div>
+                            <div class="menu">
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Elements</h4>
+                                    <a href="./tooltip.html" class="menu__item menu__item_select">Tooltip</a>
+                                    <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                    <a href="./avatar.html" class="menu__item">Avatar</a>
+                                    <a href="./toggle.html" class="menu__item">Toggle</a>
+                                    <a href="./input.html" class="menu__item">Input</a>
+                                    <a href="./buttons.html" class="menu__item">Buttons</a>
+                                </div>
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Containers</h4>
+                                    <a href="./calendar.html" class="menu__item">Calendar</a>
+                                    <a href="./accordion.html" class="menu__item">Accordion</a>
+                                </div>                   
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Templates</h4>
+                                    <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                    <a href="./histogram.html" class="menu__item">Histogram</a>
+                                    <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                                </div>                                                                 
+                                <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img class="logo__image" src="../assets/images/logo.svg">
+                    </div>
+                </div>
+            </header>        
+            <main>
+                <div class="container container_secondary">
+                    <section class="component-view">
+                        <aside class="menu menu_page">
+                            <div class="menu__block">
+                                <h4 class="menu__title">Elements</h4>
+                                <a href="./tooltip.html" class="menu__item menu__item_select">Tooltip</a>
+                                <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                <a href="./avatar.html" class="menu__item">Avatar</a>
+                                <a href="./toggle.html" class="menu__item">Toggle</a>
+                                <a href="./input.html" class="menu__item">Input</a>
+                                <a href="./buttons.html" class="menu__item">Buttons</a>
+                            </div>
+                            <div class="menu__block">
+                                <h4 class="menu__title">Containers</h4>
+                                <a href="./calendar.html" class="menu__item">Calendar</a>
+                                <a href="./accordion.html" class="menu__item">Accordion</a>
+                            </div>                   
+                            <div class="menu__block">
+                                <h4 class="menu__title">Templates</h4>
+                                <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                <a href="./histogram.html" class="menu__item">Histogram</a>
+                                <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                            </div>                                                                 
+                            <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                        </aside>
+                        <article class="component-view__view">
+                            <div class="component-view__header">
+                                <h3 class="component-view__title">Tooltip</h3>
+                                <div class="component-view__content">
+                                    <div class="tooltip">         
+                                        <svg class="tooltip__icon">
+                                            <use href='../assets/images/icons-sprite.svg#question'></use>
+                                        </svg>                                      
+                                        <div class="tooltip__bubble">
+                                            <p class="tooltip__text">Helper Text</p>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="component-view__code">
+                                <div class="tabs tabs_components">                    
+                                    <input type="radio" name="tabsGroup" id="html" class="tabs__input" checked>
+                                    <input type="radio" name="tabsGroup" id="css" class="tabs__input">
+                                    <div class="tabs__header-container component-view__tabs">
+                                        <div class="tabs__scroller">
+                                            <label class="tabs__label" for="html">HTML</label>
+                                            <label class="tabs__label" for="css">CSS</label>
+                                        </div>
+                                    </div>    
+                                    <div class="tabs__content-container tabs__content-container_code">
+                                        <div class="tabs__content tabs__content_html">
+<pre class="tabs__code"><code>&lt;div class=&quot;tooltip&quot;&gt;
+	&lt;svg class=&quot;tooltip__icon&quot;&gt;
+		&lt;use href='./assets/images/icons-sprite.svg#question'&gt;&lt;/use&gt;
+	&lt;/svg&gt;
+	&lt;div class=&quot;tooltip__bubble tooltip__bubble_preview&quot;&gt;
+		&lt;p class=&quot;tooltip__text&quot;&gt;Helper Text&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                        </div>
+                                        <div class="tabs__content tabs__content_css">
+<pre class="tabs__code"><code>.tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip__icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.tooltip__bubble {
+    display: none;
+    background: var(--primary-bg);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 10px;
+    padding: 0.5rem 1.3125em;
+    font-family: Inter;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--text-secondary);
+    position: absolute;
+    white-space: nowrap;
+    bottom: calc(100% + 9px);
+    right: 50%;
+    transform: translateX(50%);  
+}
+
+.tooltip__bubble::after {
+    content: &quot;&quot;;
+    border: 7px solid transparent;
+    border-top: 6px solid var(--primary-bg);    
+    position: absolute;
+    top: 100%;
+    right: 50%;  
+    transform: translateX(50%);  
+    z-index: -1;
+}
+
+.tooltip__icon:hover + .tooltip__bubble {
+    display: block;
+}
+
+.tooltip__text {
+    margin: 0;
+}</code></pre>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>                            
+                        </article>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer footer_secondary">
+                <div class="container container_secondary">
+                    <h5 class="footer__text footer__text_secondary">Reusable component library</h5>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

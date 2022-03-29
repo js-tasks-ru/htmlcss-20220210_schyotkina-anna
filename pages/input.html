@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!-- Главная страница -->
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>     
+        <div class="page page_secondary">
+            <header class="header header_secondary">
+                <div class="container container_secondary">
+                    <div class="toggle header__burger-button">
+                        <input type="checkbox" class="toggle__input" id="burger_button">
+                        <label for="burger_button" class="toggle__state">
+                            <div class="toggle__button toggle__button_close">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                </svg> 
+                            </div>
+                            <div class="toggle__button toggle__button_open">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                </svg> 
+                            </div>    
+                        </label>
+                        <div class="burger header__burger-menu">  
+                            <div class="dark-mode">
+                                <span class="dark-mode__title">Dark mode</span>
+                                <label class="toggle">
+                                    <input type="checkbox" class="toggle__input">
+                                    <span class="toggle__state">
+                                        <span class="toggle__control">
+                                            <span class="toggle__icon"></span>
+                                        </span>
+                                    </span>
+                                </label> 
+                            </div>
+                            <div class="menu">
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Elements</h4>
+                                    <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                    <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                    <a href="./avatar.html" class="menu__item">Avatar</a>
+                                    <a href="./toggle.html" class="menu__item">Toggle</a>
+                                    <a href="./input.html" class="menu__item menu__item_select">Input</a>
+                                    <a href="./buttons.html" class="menu__item">Buttons</a>
+                                </div>
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Containers</h4>
+                                    <a href="./calendar.html" class="menu__item">Calendar</a>
+                                    <a href="./accordion.html" class="menu__item">Accordion</a>
+                                </div>                   
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Templates</h4>
+                                    <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                    <a href="./histogram.html" class="menu__item">Histogram</a>
+                                    <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                                </div>                                                                 
+                                <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img class="logo__image" src="../assets/images/logo.svg">
+                    </div>
+                </div>
+            </header>        
+            <main>
+                <div class="container container_secondary">
+                    <section class="component-view">
+                        <aside class="menu menu_page">
+                            <div class="menu__block">
+                                <h4 class="menu__title">Elements</h4>
+                                <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                <a href="./avatar.html" class="menu__item">Avatar</a>
+                                <a href="./toggle.html" class="menu__item">Toggle</a>
+                                <a href="./input.html" class="menu__item menu__item_select">Input</a>
+                                <a href="./buttons.html" class="menu__item">Buttons</a>
+                            </div>
+                            <div class="menu__block">
+                                <h4 class="menu__title">Containers</h4>
+                                <a href="./calendar.html" class="menu__item">Calendar</a>
+                                <a href="./accordion.html" class="menu__item">Accordion</a>
+                            </div>                   
+                            <div class="menu__block">
+                                <h4 class="menu__title">Templates</h4>
+                                <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                <a href="./histogram.html" class="menu__item">Histogram</a>
+                                <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                            </div>                                                                 
+                            <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                        </aside>
+                        <article class="component-view__view">
+                            <div class="component-view__header">
+                                <h3 class="component-view__title">Input</h3>
+                                <div class="component-view__content">
+                                    <div class="custom-elements-preview custom-elements-preview_one-column custom-elements-preview_short-gap">
+                                        <label class="input">            
+                                            <span class="input__title">Label</span>
+                                            <div class="input__content">
+                                                <input type="text" class="input__input" placeholder="Placeholder">
+                                                <svg class="input__icon input__icon_success">
+                                                    <use href="../assets/images/icons-sprite.svg#input-success"></use>
+                                                </svg>
+                                                <svg class="input__icon input__icon_invalid">
+                                                    <use href="../assets/images/icons-sprite.svg#input-invalid"></use>
+                                                </svg>
+                                            </div>            
+                                        </label>
+                                        <label class="input input_success">            
+                                            <span class="input__title">Success</span>
+                                            <div class="input__content">
+                                                <input type="text" class="input__input" placeholder="Placeholder">
+                                                <svg class="input__icon input__icon_success">
+                                                    <use href="../assets/images/icons-sprite.svg#input-success"></use>
+                                                </svg>
+                                                <svg class="input__icon input__icon_invalid">
+                                                    <use href="../assets/images/icons-sprite.svg#input-invalid"></use>
+                                                </svg>
+                                            </div>            
+                                        </label>
+                                        <label class="input input_invalid">
+                                            <span class="input__title">Error</span>
+                                            <div class="input__content">
+                                                <input type="text" class="input__input" placeholder="Placeholder">
+                                                <svg class="input__icon input__icon_success">
+                                                    <use href="../assets/images/icons-sprite.svg#input-success"></use>
+                                                </svg>
+                                                <svg class="input__icon input__icon_invalid">
+                                                    <use href="../assets/images/icons-sprite.svg#input-invalid"></use>
+                                                </svg>
+                                            </div>            
+                                        </label>                                            
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="component-view__code">
+                                <div class="tabs tabs_components">                    
+                                    <input type="radio" name="tabsGroup" id="html" class="tabs__input" checked>
+                                    <input type="radio" name="tabsGroup" id="css" class="tabs__input">
+                                    <div class="tabs__header-container component-view__tabs">
+                                        <div class="tabs__scroller">
+                                            <label class="tabs__label" for="html">HTML</label>
+                                            <label class="tabs__label" for="css">CSS</label>
+                                        </div>
+                                    </div>    
+                                    <div class="tabs__content-container tabs__content-container_code">
+                                        <div class="tabs__content tabs__content_html">
+<pre class="tabs__code"><code>&lt;label class=&quot;input&quot;&gt;
+	&lt;span class=&quot;input__title&quot;&gt;Label&lt;/span&gt;
+	&lt;div class=&quot;input__content&quot;&gt;
+		&lt;input type=&quot;text&quot; class=&quot;input__input&quot; placeholder=&quot;Placeholder&quot;&gt;
+		&lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+			&lt;use href=&quot;../assets/images/icons-sprite.svg#input-success&quot;&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+		&lt;svg class=&quot;input__icon input__icon_invalid&quot;&gt;
+			&lt;use href=&quot;../assets/images/icons-sprite.svg#input-invalid&quot;&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+	&lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;input input_success&quot;&gt;
+	&lt;span class=&quot;input__title&quot;&gt;Success&lt;/span&gt;
+	&lt;div class=&quot;input__content&quot;&gt;
+		&lt;input type=&quot;text&quot; class=&quot;input__input&quot; placeholder=&quot;Placeholder&quot;&gt;
+		&lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+			&lt;use href=&quot;../assets/images/icons-sprite.svg#input-success&quot;&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+		&lt;svg class=&quot;input__icon input__icon_invalid&quot;&gt;
+			&lt;use href=&quot;../assets/images/icons-sprite.svg#input-invalid&quot;&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+	&lt;/div&gt;
+&lt;/label&gt;
+&lt;label class=&quot;input input_invalid&quot;&gt;
+	&lt;span class=&quot;input__title&quot;&gt;Error&lt;/span&gt;
+	&lt;div class=&quot;input__content&quot;&gt;
+		&lt;input type=&quot;text&quot; class=&quot;input__input&quot; placeholder=&quot;Placeholder&quot;&gt;
+		&lt;svg class=&quot;input__icon input__icon_success&quot;&gt;
+			&lt;use href=&quot;../assets/images/icons-sprite.svg#input-success&quot;&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+		&lt;svg class=&quot;input__icon input__icon_invalid&quot;&gt;
+			&lt;use href=&quot;../assets/images/icons-sprite.svg#input-invalid&quot;&gt;&lt;/use&gt;
+		&lt;/svg&gt;
+	&lt;/div&gt;
+&lt;/label&gt;</code></pre>
+                                        </div>
+                                        <div class="tabs__content tabs__content_css">
+<pre class="tabs__code"><code>.input {
+    display: inline-block;
+}
+
+.input__title {    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-footer);
+    margin-bottom: 0.42em;
+    display: block;    
+}
+
+.input__input { 
+    border: 1px solid var(--main-border);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25em;
+    line-height: 1.3;
+    padding: 0.75em 1.2em 0.75em 1.2em;
+    color: var(--text-details);
+    outline: none;
+    width: 100%;
+}
+
+.input__input::-webkit-input-placeholder {
+    color: var(--text-secondary);
+}
+
+.input__input::-moz-placeholder {
+    color: var(--text-secondary);
+}
+
+.input__input:focus {
+    border-color: var(--primary-border);
+    box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+}
+
+.input_invalid .input__input {
+    border-color: var(--error);
+    box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
+}
+
+.input_invalid .input__input,
+.input_success .input__input {
+    padding-right: 3.5em;
+}
+
+.input__icon {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+.input_invalid .input__icon.input__icon_invalid {
+    display: block;
+}
+
+.input_success .input__icon.input__icon_success {
+    display: block;
+}
+
+.input__content {
+    position: relative;
+}</code></pre>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>                            
+                        </article>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer footer_secondary">
+                <div class="container container_secondary">
+                    <h5 class="footer__text footer__text_secondary">Reusable component library</h5>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

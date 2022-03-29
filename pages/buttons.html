@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- Главная страница -->
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>     
+        <div class="page page_secondary">
+            <header class="header header_secondary">
+                <div class="container container_secondary">
+                    <div class="toggle header__burger-button">
+                        <input type="checkbox" class="toggle__input" id="burger_button">
+                        <label for="burger_button" class="toggle__state">
+                            <div class="toggle__button toggle__button_close">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                </svg> 
+                            </div>
+                            <div class="toggle__button toggle__button_open">
+                                <svg class="toggle__icon toggle__icon_burger">
+                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                </svg> 
+                            </div>    
+                        </label>
+                        <div class="burger header__burger-menu">  
+                            <div class="dark-mode">
+                                <span class="dark-mode__title">Dark mode</span>
+                                <label class="toggle">
+                                    <input type="checkbox" class="toggle__input">
+                                    <span class="toggle__state">
+                                        <span class="toggle__control">
+                                            <span class="toggle__icon"></span>
+                                        </span>
+                                    </span>
+                                </label> 
+                            </div>
+                            <div class="menu">
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Elements</h4>
+                                    <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                    <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                    <a href="./avatar.html" class="menu__item">Avatar</a>
+                                    <a href="./toggle.html" class="menu__item">Toggle</a>
+                                    <a href="./input.html" class="menu__item">Input</a>
+                                    <a href="./buttons.html" class="menu__item menu__item_select">Buttons</a>
+                                </div>
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Containers</h4>
+                                    <a href="./calendar.html" class="menu__item">Calendar</a>
+                                    <a href="./accordion.html" class="menu__item">Accordion</a>
+                                </div>                   
+                                <div class="menu__block">
+                                    <h4 class="menu__title">Templates</h4>
+                                    <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                    <a href="./histogram.html" class="menu__item">Histogram</a>
+                                    <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                                </div>                                                                 
+                                <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img class="logo__image" src="../assets/images/logo.svg">
+                    </div>
+                </div>
+            </header>        
+            <main>
+                <div class="container container_secondary">
+                    <section class="component-view">
+                        <aside class="menu menu_page">
+                            <div class="menu__block">
+                                <h4 class="menu__title">Elements</h4>
+                                <a href="./tooltip.html" class="menu__item">Tooltip</a>
+                                <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                <a href="./avatar.html" class="menu__item">Avatar</a>
+                                <a href="./toggle.html" class="menu__item">Toggle</a>
+                                <a href="./input.html" class="menu__item">Input</a>
+                                <a href="./buttons.html" class="menu__item menu__item_select">Buttons</a>
+                            </div>
+                            <div class="menu__block">
+                                <h4 class="menu__title">Containers</h4>
+                                <a href="./calendar.html" class="menu__item">Calendar</a>
+                                <a href="./accordion.html" class="menu__item">Accordion</a>
+                            </div>                   
+                            <div class="menu__block">
+                                <h4 class="menu__title">Templates</h4>
+                                <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                <a href="./histogram.html" class="menu__item">Histogram</a>
+                                <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                            </div>                                                                 
+                            <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                        </aside>
+                        <article class="component-view__view">
+                            <div class="component-view__header">
+                                <h3 class="component-view__title">Buttons</h3>
+                                <div class="component-view__content">
+                                    <div class="custom-elements-preview custom-elements-preview_column-gap">
+                                        <button class="button button_primary">Primary</button>
+                                        <button class="button button_primary" disabled>Primary</button>
+                                        <button class="button button_secondary">Secondary</button>
+                                        <button class="button button_secondary" disabled>Secondary</button>
+                                        <button class="button button_alternate">Alternate</button>                                            
+                                        <button class="button button_alternate" disabled>Alternate</button>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="component-view__code">
+                                <div class="tabs tabs_components">                    
+                                    <input type="radio" name="tabsGroup" id="html" class="tabs__input" checked>
+                                    <input type="radio" name="tabsGroup" id="css" class="tabs__input">
+                                    <div class="tabs__header-container component-view__tabs">
+                                        <div class="tabs__scroller">
+                                            <label class="tabs__label" for="html">HTML</label>
+                                            <label class="tabs__label" for="css">CSS</label>
+                                        </div>
+                                    </div>    
+                                    <div class="tabs__content-container tabs__content-container_code">
+                                        <div class="tabs__content tabs__content_html">
+<pre class="tabs__code"><code>&lt;button class=&quot;button button_primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button button_primary&quot; disabled&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button button_secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button class=&quot;button button_secondary&quot; disabled&gt;Secondary&lt;/button&gt;
+&lt;button class=&quot;button button_alternate&quot;&gt;Alternate&lt;/button&gt;
+&lt;button class=&quot;button button_alternate&quot; disabled&gt;Alternate&lt;/button&gt;</code></pre>
+                                        </div>
+                                        <div class="tabs__content tabs__content_css">
+<pre class="tabs__code"><code>.button {
+    min-width: 11.875em;
+    padding: 0.9375em 0.9375em;
+    border-radius: 0.5em;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+    line-height: 1.1875;
+    font-weight: 500;
+}
+
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.button_primary:hover {
+    background-color: var(--primary-bg-hover);    
+    border-color: var(--primary-border-hover);
+}
+
+.button_primary {
+    background-color: var(--primary-bg);
+    border-color: var(--primary-border);
+    color: var(--primary-text-color);
+}
+
+.button_secondary:hover {
+    background-color: var(--secondary-bg-hover);    
+    border-color: var(--secondary-border-hover);
+}
+
+.button_secondary {
+    background-color: var(--secondary-bg);
+    border-color: var(--secondary-border);
+    color: var(--secondary-text-color);
+}
+
+.button_alternate:hover {
+    background-color: var(--alternate-bg-hover);    
+    border-color: var(--alternate-border-hover);
+}
+
+.button_alternate {
+    background-color: var(--alternate);
+    border-color: var(--alternate-border);
+    color: var(--alternate-text-color);
+}</code></pre>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>                            
+                        </article>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer footer_secondary">
+                <div class="container container_secondary">
+                    <h5 class="footer__text footer__text_secondary">Reusable component library</h5>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
