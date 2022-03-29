@@ -49,12 +49,7 @@
     cursor: pointer;    
 }
 
-.accordion_preview100 {
-    width: 100%;
-}
-
 .accordion_preview {
-    width: 100%;
     font-size: 0.45rem;
     pointer-events: none;
 }

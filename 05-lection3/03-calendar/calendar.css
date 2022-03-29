@@ -67,10 +67,6 @@
     width: 7.5rem;
 }
 
-.calendar_preview100 {
-    width: 100%;
-}
-
 @media screen and (min-width: 768px) {
     .calendar_preview {
         font-size: 0.625rem;
