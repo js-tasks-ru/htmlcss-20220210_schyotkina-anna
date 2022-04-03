@@ -27,7 +27,7 @@
     line-height: 1.3;
     font-weight: normal;
     margin: 0 0 1rem 0;
-    color: var(--text-footer);
+    color: var(--text-titles);
 }
 
 .menu__item {

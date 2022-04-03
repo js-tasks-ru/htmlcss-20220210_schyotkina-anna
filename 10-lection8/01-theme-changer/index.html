@@ -2,14 +2,23 @@
 <!-- Пример использования theme-changer -->
 <html lang="ru">
     <head>
-        <style>
-            html[data-theme-dark] {
-                background: #000;
-            }
-        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../assets/css/normalize.css">  
+        <link rel="stylesheet" href="./theme-changer.css"> 
+        <link rel="stylesheet" href="../../assets/css/main.css">                             
         <script defer src="./theme-changer.js"></script>
     </head>
     <body>
-        <input type="checkbox" id="theme-changer">
+        <div class="page">
+            <label class="toggle">
+                <input type="checkbox" id="theme-changer" class="toggle__input">
+                <span class="toggle__state">
+                    <span class="toggle__control">
+                        <span class="toggle__icon"></span>
+                    </span>
+                </span>
+            </label>
+        </div>
     </body>
 </html>

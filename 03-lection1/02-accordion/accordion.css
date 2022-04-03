@@ -46,7 +46,8 @@
 .accordion__icon {
     width: 1.625rem;
     height: 1.625rem;
-    cursor: pointer;    
+    cursor: pointer;   
+    fill: var(--image-color); 
 }
 
 .accordion_preview {

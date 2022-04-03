@@ -31,6 +31,7 @@
     height: 1.125em;
     background: var(--alternate-bg);
     border-radius: 0.875em;
+    opacity: 0;
 }
 
 .radio__title {
@@ -39,7 +40,7 @@
     font-weight: normal;
     font-size: 1em;
     line-height: 1.5;
-    color: var(--text-details);
+    color: var(--text-controls);
 }
 
 .radio__input:checked ~ .radio__state .radio__control {
@@ -47,7 +48,8 @@
 }
 
 .radio__input:checked ~ .radio__state .radio__icon {
-    background: var(--primary-bg);    
+    background: var(--primary-bg);   
+    opacity: 1; 
 }
 
 .radio__input:focus ~ .radio__state .radio__title {
@@ -56,11 +58,12 @@
 
 .radio__input:disabled ~ .radio__state .radio__control,
 .radio__input:disabled ~ .radio__state .radio__control .radio__icon {
-    background: var(--block-bg);    
+    background: var(--disabled-color); 
+    border-color: var(--disabled-color);   
 }
 
 .radio__input:disabled ~ .radio__state .radio__title {
-    color: var(--text-secondary);
+    color: var(--disabled-color);
 }
 
 .radio__input:disabled ~ .radio__state {
