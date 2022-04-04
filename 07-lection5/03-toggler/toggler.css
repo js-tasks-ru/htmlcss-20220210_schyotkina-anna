@@ -43,6 +43,10 @@
     border-color: var(--control-bg);
 }
 
+.toggle_white-bg .toggle__control {
+    background-color: var(--white);
+}
+
 .toggle__title {
     font-family: Inter;
     font-style: normal;

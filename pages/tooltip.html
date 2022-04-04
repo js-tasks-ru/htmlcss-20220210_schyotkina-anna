@@ -6,64 +6,83 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../assets/css/normalize.css">
         <link rel="stylesheet" href="../assets/css/main.css">
+        <script defer src="../10-lection8/01-theme-changer/theme-changer.js"></script>
     </head>
     <body>     
         <div class="page page_secondary">
             <header class="header header_secondary">
                 <div class="container container_secondary">
-                    <div class="toggle header__burger-button">
-                        <input type="checkbox" class="toggle__input" id="burger_button">
-                        <label for="burger_button" class="toggle__state">
-                            <div class="toggle__button toggle__button_close">
-                                <svg class="toggle__icon toggle__icon_burger">
-                                    <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
-                                </svg> 
-                            </div>
-                            <div class="toggle__button toggle__button_open">
-                                <svg class="toggle__icon toggle__icon_burger">
-                                    <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
-                                </svg> 
-                            </div>    
-                        </label>
-                        <div class="burger header__burger-menu">  
-                            <div class="dark-mode">
-                                <span class="dark-mode__title">Dark mode</span>
-                                <label class="toggle">
-                                    <input type="checkbox" class="toggle__input">
-                                    <span class="toggle__state">
-                                        <span class="toggle__control">
-                                            <span class="toggle__icon"></span>
-                                        </span>
-                                    </span>
-                                </label> 
-                            </div>
-                            <div class="menu">
-                                <div class="menu__block">
-                                    <h4 class="menu__title">Elements</h4>
-                                    <a href="./tooltip.html" class="menu__item menu__item_select">Tooltip</a>
-                                    <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
-                                    <a href="./avatar.html" class="menu__item">Avatar</a>
-                                    <a href="./toggle.html" class="menu__item">Toggle</a>
-                                    <a href="./input.html" class="menu__item">Input</a>
-                                    <a href="./buttons.html" class="menu__item">Buttons</a>
+                    <div class="header__menu">
+                        <div class="toggle header__burger-button">
+                            <input type="checkbox" class="toggle__input" id="burger_button">
+                            <label for="burger_button" class="toggle__state">
+                                <div class="toggle__button toggle__button_close">
+                                    <svg class="toggle__icon toggle__icon_burger">
+                                        <use href='../assets/images/icons-sprite.svg#burger-menu-close'></use>
+                                    </svg> 
                                 </div>
-                                <div class="menu__block">
-                                    <h4 class="menu__title">Containers</h4>
-                                    <a href="./calendar.html" class="menu__item">Calendar</a>
-                                    <a href="./accordion.html" class="menu__item">Accordion</a>
-                                </div>                   
-                                <div class="menu__block">
-                                    <h4 class="menu__title">Templates</h4>
-                                    <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
-                                    <a href="./histogram.html" class="menu__item">Histogram</a>
-                                    <a href="./skeleton.html" class="menu__item">Skeleton</a>
-                                </div>                                                                 
-                                <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                                <div class="toggle__button toggle__button_open">
+                                    <svg class="toggle__icon toggle__icon_burger">
+                                        <use href='../assets/images/icons-sprite.svg#burger-menu-open'></use>
+                                    </svg> 
+                                </div>    
+                            </label>
+                            <div class="burger header__burger-menu">  
+                                <div class="dark-mode">
+                                    <span class="dark-mode__title">Dark mode</span>
+                                    <label class="toggle toggle_white-bg">
+                                        <input type="checkbox" id="theme-changer_2" class="toggle__input">
+                                        <span class="toggle__state">
+                                            <span class="toggle__control">
+                                                <span class="toggle__icon"></span>
+                                            </span>
+                                        </span>
+                                    </label> 
+                                </div>
+                                <div class="menu">
+                                    <div class="menu__block">
+                                        <h4 class="menu__title">Elements</h4>
+                                        <a href="./tooltip.html" class="menu__item menu__item_select">Tooltip</a>
+                                        <a href="./custom-form-elements.html" class="menu__item">Custom form elements</a>
+                                        <a href="./avatar.html" class="menu__item">Avatar</a>
+                                        <a href="./toggle.html" class="menu__item">Toggle</a>
+                                        <a href="./input.html" class="menu__item">Input</a>
+                                        <a href="./buttons.html" class="menu__item">Buttons</a>
+                                    </div>
+                                    <div class="menu__block">
+                                        <h4 class="menu__title">Containers</h4>
+                                        <a href="./calendar.html" class="menu__item">Calendar</a>
+                                        <a href="./accordion.html" class="menu__item">Accordion</a>
+                                    </div>                   
+                                    <div class="menu__block">
+                                        <h4 class="menu__title">Templates</h4>
+                                        <a href="./modal_dialog.html" class="menu__item">Modal dialog</a>
+                                        <a href="./histogram.html" class="menu__item">Histogram</a>
+                                        <a href="./skeleton.html" class="menu__item">Skeleton</a>
+                                    </div>                                                                 
+                                    <a href="../index.html" class="menu__item menu__item_main">Main page</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="logo">
-                        <img class="logo__image" src="../assets/images/logo.svg">
+                        <svg class='header__logo'>
+                            <use href='../assets/images/icons-sprite.svg#logo'></use>
+                        </svg>
+                        <div class="header__switch">
+                            <svg class="header__icon">
+                                <use href='../assets/images/icons-sprite.svg#sun'></use>
+                            </svg> 
+                            <label class="toggle toggle_dark toggle_white-bg">
+                                <input type="checkbox" id="theme-changer" class="toggle__input">                                    
+                                <span class="toggle__state">
+                                    <span class="toggle__control">
+                                        <span class="toggle__icon"></span>
+                                    </span>
+                                </span>
+                            </label>
+                            <svg class="header__icon">
+                                <use href='../assets/images/icons-sprite.svg#moon'></use>
+                            </svg>                                 
+                        </div>                          
                     </div>
                 </div>
             </header>        

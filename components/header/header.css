@@ -53,8 +53,8 @@
 }
 
 .header__burger-menu {
-    top: calc(2.125rem + 32px);
-    height: calc(100vh - 2.125rem - 32px);
+    top: calc(2.125rem + 31px);
+    height: calc(100vh - 2.125rem - 31px);
     z-index: 3;
 }
 

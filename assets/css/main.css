@@ -89,13 +89,13 @@
     --text-footer: var(--grey-3); 
 
     --control-bg: var(--grey-3); 
-    --preview-bg-color: var(--grey-5);
 
     --disabled-color: var(--grey-2);
     
     --blue_text: #334D6E;
     --calendar_column: #90A0B7;
     --calendar_between: #334D6E;
+    --text-title-main: #000000;
 }
 
 body {
