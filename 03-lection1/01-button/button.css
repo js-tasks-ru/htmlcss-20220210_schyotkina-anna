@@ -22,12 +22,12 @@
 
 .button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(var(--shadow-value), var(--shadow-value), var(--shadow-value), 0.2);
 }
 
 .button:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(var(--shadow-value), var(--shadow-value), var(--shadow-value), 0.2);
 }
 
 .button_primary:hover {
@@ -53,13 +53,11 @@
 }
 
 .button_alternate:hover {
-    background-color: var(--alternate-bg-hover);    
-    border-color: var(--alternate-border-hover);
+    border-color: var(--text-main);
 }
 
 .button_alternate {
-    background-color: var(--alternate);
-    border-color: var(--alternate-border);
+    border-color: var(--border);
     color: var(--text-main);
 }
 

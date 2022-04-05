@@ -13,4 +13,5 @@ html[data-theme-dark] {
     --control-bg: var(--grey-4);
     --text-title-main: var(--white);
     --text-details: var(--grey-3);
+    --shadow-value: 255;
 }

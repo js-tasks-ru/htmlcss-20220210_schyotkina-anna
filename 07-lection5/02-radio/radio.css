@@ -29,9 +29,7 @@
 .radio__icon {
     width: 1.125em;
     height: 1.125em;
-    background: var(--alternate-bg);
     border-radius: 0.875em;
-    opacity: 0;
 }
 
 .radio__title {
@@ -49,7 +47,6 @@
 
 .radio__input:checked ~ .radio__state .radio__icon {
     background: var(--primary-bg);   
-    opacity: 1; 
 }
 
 .radio__input:focus ~ .radio__state .radio__title {
