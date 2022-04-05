@@ -29,6 +29,7 @@
     outline: none;
     width: 100%;
     background-color: var(--alternate-page-bg);
+    transition: border .5s ease;
 }
 
 .input__input::-webkit-input-placeholder {
