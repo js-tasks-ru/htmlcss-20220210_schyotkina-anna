@@ -21,7 +21,8 @@
     border: 1px solid var(--main-border);
     box-sizing: border-box;
     border-radius: 1rem;
-    position: relative;
+    padding: 1px;
+    display: inline-flex;
     transition: background .5s ease;
 }
 
@@ -31,10 +32,7 @@
     background: var(--block-bg);
     border-radius: 1rem;
     stroke: var(--image-color);
-    position: absolute;
-    left: 1px;
-    top: 1px;
-    transition: left .5s ease;
+    transition: transform .5s ease;
 }
 
 .toggle_deep .toggle__icon {
@@ -64,7 +62,7 @@
 }
 
 .toggle__input:checked ~ .toggle__state .toggle__icon {
-    left: 1.6rem;
+    transform: translate(1.5rem);
     background: var(--white);
 }
 
