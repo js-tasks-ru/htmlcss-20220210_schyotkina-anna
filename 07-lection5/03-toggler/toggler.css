@@ -35,11 +35,11 @@
     stroke: var(--image-color);
 }
 
-.toggle_dark .toggle__icon {
+.toggle_deep .toggle__icon {
     background: var(--control-bg);
 }
 
-.toggle_dark .toggle__control {
+.toggle_deep .toggle__control {
     border-color: var(--control-bg);
 }
 
