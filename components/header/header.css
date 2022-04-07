@@ -28,7 +28,7 @@
 .header__icon {
     width: 24px;
     height: 24px;
-    stroke: var(--alternate-border);
+    stroke: var(--border);
 }
 
 .header__title {

@@ -8,6 +8,7 @@
     background-color: transparent;
     border-color: transparent;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
     transition: background 200ms ease-in-out;
     line-height: 1.1875;
     font-weight: 500;
@@ -17,6 +18,16 @@
     cursor: default;
     opacity: 0.5;
     pointer-events: none;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(var(--shadow-value), var(--shadow-value), var(--shadow-value), 0.2);
+}
+
+.button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(var(--shadow-value), var(--shadow-value), var(--shadow-value), 0.2);
 }
 
 .button_primary:hover {
@@ -42,13 +53,11 @@
 }
 
 .button_alternate:hover {
-    background-color: var(--alternate-bg-hover);    
-    border-color: var(--alternate-border-hover);
+    border-color: var(--text-main);
 }
 
 .button_alternate {
-    background-color: var(--alternate);
-    border-color: var(--alternate-border);
+    border-color: var(--border);
     color: var(--text-main);
 }
 
