@@ -11,37 +11,49 @@
 .toggle__state {
     display: flex;
     align-items: center;
-    gap: 0.75em;
+    gap: 0.75rem;
     cursor: pointer;
 }
 
 .toggle__control {
-    width: 3.25em;
-    height: 1.75em;
+    width: 3.25rem;
+    height: 1.75rem;
     border: 1px solid var(--main-border);
     box-sizing: border-box;
-    border-radius: 1em;
+    border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 1px;
-    background-color: var(--alternate-bg);
 }
 
 .toggle__icon {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.5rem;
+    height: 1.5rem;
     background: var(--block-bg);
-    border-radius: 1em;
+    border-radius: 1rem;
+    stroke: var(--image-color);
+}
+
+.toggle_deep .toggle__icon {
+    background: var(--control-bg);
+}
+
+.toggle_deep .toggle__control {
+    border-color: var(--control-bg);
+}
+
+.toggle_white-bg .toggle__control {
+    background-color: var(--white);
 }
 
 .toggle__title {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.5;
-    color: var(--text-details);
+    color: var(--text-controls);
 }
 
 .toggle__input:checked ~ .toggle__state .toggle__control {
@@ -69,6 +81,10 @@
 
 .toggle__input:disabled ~ .toggle__state {
     cursor: default;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__title {
+    color: var(--disabled-color);
 }
 
 .toggle__input:checked ~ .toggle__state .toggle__button_close,

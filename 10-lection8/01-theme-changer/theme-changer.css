@@ -1,0 +1,16 @@
+html[data-theme-dark] {
+    --alternate-page-bg: var(--black);
+    --text-main: var(--grey-3); 
+    --image-color: var(--grey-1);
+    --text-active: var(--grey-1);
+    --main-page-bg: var(--grey-4);
+    --disabled-color: var(--grey-4);
+    --text-controls: var(--white);
+    --text-titles: var(--white);
+    --blue_text: var(--grey-3);
+    --calendar_column: var(--grey-3);
+    --calendar_between: var(--white);
+    --control-bg: var(--grey-4);
+    --text-title-main: var(--white);
+    --text-details: var(--grey-3);
+}

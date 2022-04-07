@@ -1,5 +1,5 @@
 .burger {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-page-bg);
     position: fixed;
     top: 0;
     left: 0;
@@ -9,6 +9,10 @@
     transition: transform 200ms ease-in-out;
     padding: 1rem;
     box-sizing: border-box;
+}
+
+.burger_main {
+    background-color: var(--alternate-page-bg);
 }
 
 #burger_button:checked ~ .burger {

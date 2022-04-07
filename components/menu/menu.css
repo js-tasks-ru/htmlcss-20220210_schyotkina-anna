@@ -1,6 +1,5 @@
 .menu {
-    --text-select-color: #D84910;
-    --text-title-color: #000000;     
+    --text-select-color: #D84910;    
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -27,7 +26,7 @@
     line-height: 1.3;
     font-weight: normal;
     margin: 0 0 1rem 0;
-    color: var(--text-footer);
+    color: var(--text-titles);
 }
 
 .menu__item {
@@ -58,7 +57,7 @@
     }
 
     .menu__title {
-        color: var(--text-title-color);
+        color: var(--text-title-main);
     }
 
     .menu__block {

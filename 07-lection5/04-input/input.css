@@ -28,14 +28,15 @@
     color: var(--text-details);
     outline: none;
     width: 100%;
+    background-color: var(--alternate-page-bg);
 }
 
 .input__input::-webkit-input-placeholder {
-    color: var(--text-secondary);
+    color: var(--disabled-color);
 }
 
 .input__input::-moz-placeholder {
-    color: var(--text-secondary);
+    color: var(--disabled-color);
 }
 
 .input__input:focus {
