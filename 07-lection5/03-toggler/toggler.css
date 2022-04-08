@@ -21,10 +21,9 @@
     border: 1px solid var(--main-border);
     box-sizing: border-box;
     border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     padding: 1px;
+    display: inline-flex;
+    transition: background .5s ease;
 }
 
 .toggle__icon {
@@ -33,6 +32,7 @@
     background: var(--block-bg);
     border-radius: 1rem;
     stroke: var(--image-color);
+    transition: transform .5s ease;
 }
 
 .toggle_deep .toggle__icon {
@@ -59,10 +59,10 @@
 .toggle__input:checked ~ .toggle__state .toggle__control {
     background: var(--primary-bg);
     border-color: var(--primary-border);
-    justify-content: flex-end;
 }
 
 .toggle__input:checked ~ .toggle__state .toggle__icon {
+    transform: translate(1.5rem);
     background: var(--white);
 }
 
@@ -112,6 +112,7 @@
     height: 1.5rem;
     border-radius: 0;
     background-color: transparent;
+    position: static;
 }
 
 .toggle__button {
